@@ -5,14 +5,15 @@ function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } functi
  lightbox_inner_addcustom("");
 
 
-function box_in_set(az,id,idd,t,fl,cp,po, ds,dssa){   
- lightbox_inner(az, id, { type: t, lightbox:'true', caption: cp, mute:'false', controls:'true', autoplay:'false', loop:'true', volume:ds, currentTime:dssa, playbackRate:'1', poster: po }, { caption:{ enable:true }, thumbs:{ enable:false }}, { thumbs:{ id:'' }, caption:{ id: fl }});  
+function box_in_set(az,id,idd,t,fl,cp,po, ds,dssa,sdssa){   
+ lightbox_inner(az, id, { type: t, lightbox:'true', caption: cp, mute:'false', controls:'true', autoplay:'false', loop:'true', volume:ds, currentTime:dssa, playbackRate:sdssa, poster: po }, { caption:{ enable:true }, thumbs:{ enable:false }}, { thumbs:{ id:'' }, caption:{ id: fl }});  
 }
 
 function download_video_setdd(d, v) {  var ex_loadex_downnd=fmdplex_loadex_txv(v.getAttribute("src"));  if(ex_loadex_downnd==""){   }  else {  
  z_setid_attr(d,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(d,'download', fmdplex_loadex_txv(v.getAttribute("src")));    
  v.pause();  
-box_in_set("false","light_box_modal","box_btns","video",ex_loadex_downnd,"video",fmdplex_loadex_txv(v.getAttribute("poster")), v.volume, v.currentTime);
+box_in_set("false","light_box_modal","box_btns","video",ex_loadex_downnd,"Download File",fmdplex_loadex_txv(v.getAttribute("poster")), v.volume, v.currentTime, v.playbackRate);
+ var zzszhisdddfdgdfceardsscz=document.getElementById("light_box_modal");     zzszhisdddfdgdfceardsscz.oncontextmenu=function(){ return true;  }; 
 }   }  
 
 

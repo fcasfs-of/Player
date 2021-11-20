@@ -31,3 +31,7 @@ inpss45435rwles.onchange=function(){ mdpl_handleFileSelect(this);};
 
 
 playevid_setmode_file("","");
+
+
+fdpl_showiddl_pld('download_btn', fdpl_val(true)); 
+

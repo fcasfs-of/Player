@@ -1,3 +1,5 @@
+function vistopauseclie(){ var vidsdffsdeo = document.getElementById('plvideo');  vidsdffsdeo.pause();  } 
+
 var link_flvid="";
 
 function playelisvid_setmode_file(zplaylist_tbl){

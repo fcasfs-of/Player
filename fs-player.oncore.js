@@ -5,6 +5,8 @@ var fs_trans_osvendors = [ '-webkit-', '-o-', '-moz-', '-ms-', '' ];
 var fs_trans_osprefix = [ "", "o", "ms", "moz", "khtml", "webkit" ];  
 
 
+var download_video_set_in=function(){};
+
 
 
 function fs_url_int_bb(ssz){   var zzbslob = ssz;   return ""+zzbslob+"";   }
@@ -508,8 +510,9 @@ var isMousekk = true;    var timeout;   var isHidden = false;
 function mdplprogressgetpl(v,n){ var myBarfilemediasewwwe = v;  var myBarbtbasewwwe = document.getElementById(n);   var bufferedEndw = myBarfilemediasewwwe.buffered.end(myBarfilemediasewwwe.buffered.length - 1);      var durationwee =  myBarfilemediasewwwe.duration;     var loadd_brere=0;    if (durationwee > 0) {   var loadd_brere=bufferedEndw/durationwee*100;       if(loadd_brere > 99){  var loadd_breresdsww=100;      }  else {  var loadd_breresdsww=loadd_brere;     }    myBarbtbasewwwe.style.width = loadd_breresdsww + "%";   }   myBarbtbasewwwe.style.width = loadd_breresdsww + "%";  }  
 
 
-  function download_video_ntab(d) {  z_setid_attr(d,'target', "_blank");   }             function download_video_set(d, v) {  var ex_loadex_downnd=fmdplex_loadex_txv(v.getAttribute("src"));  if(ex_loadex_downnd==""){   }  else {  z_setid_attr(d,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(d,'download', fmdplex_loadex_txv(v.getAttribute("src")));   d.click();    v.pause();  }   }  
-
+  function download_video_ntab(d) {  z_setid_attr(d,'target', "_blank");   }             function download_video_setz(d, v) {  var ex_loadex_downnd=fmdplex_loadex_txv(v.getAttribute("src"));  if(ex_loadex_downnd==""){   }  else {  z_setid_attr(d,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(d,'download', fmdplex_loadex_txv(v.getAttribute("src")));   d.click();    v.pause();  }   }  
+download_video_set_in=download_video_setz;    function download_video_set(d, v) {    download_video_set_in(d, v);   }
+	
 
 function cueChange(textTck){  var hangetx_trds = "";  var cues = textTck.activeCues;  if (cues.length > 0){   var hangetx_trds = fmdplex_loadex_txv(cues[0].text);  }     return hangetx_trds;  }
   function track_player_load(trackid) {  var text_aTrack = trackid.track;   trackid.addEventListener("cuechange", function(){cueChange(text_aTrack);});   }

@@ -377,8 +377,12 @@ aaapza_infomdjdaaasap.onclick=function(){  load_info_file_fld_csdap(za);   };
 
 function load_info_file_fldd(q, xa, t,s){   var aboy_infbrnsttoprddd=true;   if(s.innerHTML==""){   var aboy_infbrnsttoprddd=false;   }    if(t.innerHTML=="00:00:00"){   var aboy_infbrnsttoprddd=false;  }  if(t.innerHTML==""){   var aboy_infbrnsttoprddd=false;     }          apza_infomdjdaaas.innerHTML=''+s.innerHTML+'<br/>'+t.innerHTML+'';   if(''+s.innerHTML+'<br/>'+''=='<br/>'){  apza_infomdjdaaas.innerHTML=''+t.innerHTML+'';  }    fdpl_showiddl_pld(xa+'_about-flth',aboy_infbrnsttoprddd);  if(aboy_infbrnsttoprddd==true){   if(q==true){  video.pause();  }     }  } 
 function load_info_file_fld_csd(q, xa, t,s){  fdpl_showiddl_pld(xa+'_about-flth',false);  apza_infomdjdaaas.innerHTML="";   if(q==true){  video.play(); }   }
-//aboy_infbrnsttopr.onclick=function(){   if(apza_infomdjds.style.display=="block"){  load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer); }  else {  load_info_file_fldd(true, za, textTotal, playlisttitlePlayer);  }  };
-aboy_infbrnsttopr.onclick=function(){  load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer);   };
+aboy_infbrnsttopr.onclick=function(){   
+	//if(apza_infomdjds.style.display=="block"){  
+	load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer); 
+//}  else {  load_info_file_fldd(true, za, textTotal, playlisttitlePlayer);  }  
+};
+
 
 
 player.onload = fs_app_ids_mdpl[za];  kddvideopl.onload = fs_app_ids_mdpl_load_sys;  

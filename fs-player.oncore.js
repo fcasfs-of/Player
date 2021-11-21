@@ -331,6 +331,7 @@ var playlistbrnsttopr = document.getElementById('btn_pl_sttop');
 var aboy_infbrnsttopr = document.getElementById('menc_pl_btn_aboutthfil');
 var aboy_infbrnsttoprap = document.getElementById('menc_appl_btn_aboutthfil');
 var aboy_dfsdffdsfttoprap = document.getElementById('btn_pl_squ');
+	var aboy_infbrnsfdttopr = document.getElementById('menc_pl_btn_aboutthfil');   
 var aboy_dfsdffdsfttopfsprogress_soj_thumdurationrap = document.getElementById('progress_soj_thum');
 
 
@@ -380,7 +381,7 @@ function load_info_file_fld_csd(q, xa, t,s){  fdpl_showiddl_pld(xa+'_about-flth'
 aboy_infbrnsttopr.onclick=function(){   if(apza_infomdjds.style.display=="block"){  load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer); }  else {  load_info_file_fldd(true, za, textTotal, playlisttitlePlayer);  }  };
 aaapza_infomdjdaaas.onclick=function(){  load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer);   };
 
-var aboy_infbrnsfdttopr = document.getElementById('menc_pl_btn_aboutthfil');   aboy_infbrnsfdttopr.onclick=function(){   load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer);  };
+aboy_infbrnsfdttopr.onclick=function(){   load_info_file_fld_csd(true, za, textTotal, playlisttitlePlayer);  };
 
 
 player.onload = fs_app_ids_mdpl[za];  kddvideopl.onload = fs_app_ids_mdpl_load_sys;  

@@ -12,7 +12,7 @@ function box_in_set(az,id,idd,t,fl,cp,po, ds,dssa,sdssa){
 function download_video_setdd(d, v) {  var ex_loadex_downnd=fmdplex_loadex_txv(v.getAttribute("src"));  if(ex_loadex_downnd==""){   }  else {  
  z_setid_attr(d,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(d,'download', fmdplex_loadex_txv(v.getAttribute("src")));    
  v.pause();  
-box_in_set("false","light_box_modal","box_btns","video",ex_loadex_downnd,"<a id=\"down_id_mdoo\" style=\"padding:3px;pointer-events:auto;cursor:pointer;\">Download File</a>",fmdplex_loadex_txv(v.getAttribute("poster")), v.volume, v.currentTime, v.playbackRate);
+box_in_set("false","light_box_modal","box_btns","video",ex_loadex_downnd,"<a id=\"down_id_mdoo\"  class=\"d8ssbutton\" style=\"padding:3px;pointer-events:auto;cursor:pointer;\">Download File</a>",fmdplex_loadex_txv(v.getAttribute("poster")), v.volume, v.currentTime, v.playbackRate);
  var zzszhisddsdfdgdfceardsscz=document.getElementById("vidfrf_o");     zzszhisddsdfdgdfceardsscz.oncontextmenu=function(){ return false; this.preventDefault(); };  
 var zzszhirtertceardsscz=document.getElementById("down_id_mdoo");    z_setid_attr(zzszhirtertceardsscz,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(zzszhirtertceardsscz,'download', fmdplex_loadex_txv(v.getAttribute("src")));    
 }   }  

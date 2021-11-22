@@ -14,7 +14,7 @@ function fs_url_int_bb(ssz){   var zzbslob = ssz;   return ""+zzbslob+"";   }
 
 
 /*function getActiveTimeRange(range, time) {    var len = range.length;    var index = -1;    var start = 0;    var end = 0;    for (var i = 0; i < len; i++) {        if (time >= (start = range.start(i)) && time <= (end = range.end(i))) {            index = i;            break;        }    }    return [index, start, end];   };*/
-
+ 
 function mdpl_fs_call(s){   document.write(s);   }
 function mdpl_fs_require(file, callback){    var zshead=document.getElementsByTagName("head")[0];    var zascript=document.createElement('script');    zascript.src=file;    zascript.type='text/javascript';    zascript.onload=callback;    zascript.onreadystatechange = function() {        if (this.readyState == 'complete') {            callback();        }    };    zshead.appendChild(zascript);   }
 
@@ -808,27 +808,28 @@ zz_setid_attr("html_"+ob+"_fs_mdpl", "this_userAgent", this.navigator.userAgent)
 function set_icon_controls(a) {  var sdad_icon_control=fmdplex_loadex_txv(a);    if(sdad_icon_control==""){  }  else{    pl_dispNav('pl-icon-li').innerHTML='<img src="'+fmdplex_loadex_txv(sdad_icon_control)+'" id="icon-pl-img" class="icncirtel"  style="display:none;"/>';   fdpl_showiddl_pld("icon-pl-img",true);   }    }      
 
 
-/*var mdpl_val_min_posdefaults_i = mdpl_val_min_posdefault("Bottom.Left");*/
-
-  var set_file_videoplayer=fs_set_file_videoplayer;       var set_playlist_videoplayer=fs_set_playlist_videoplayer;        
-
-
-
-
 
 function create_plugin(es){  return {
 modal:function(id){
 var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    
-	vdfsdfsfdsdfa = vidfsdfa.innerHTML;
+	var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
 },
 object:function(id){
 var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    
-	vdfsdfsfdsdfa = vidfsdfa.innerHTML;
+	var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
 },
 };
 }
+
+
+
+
+
+/*var mdpl_val_min_posdefaults_i = mdpl_val_min_posdefault("Bottom.Left");*/
+
+  var set_file_videoplayer=fs_set_file_videoplayer;       var set_playlist_videoplayer=fs_set_playlist_videoplayer;        
 
 
 

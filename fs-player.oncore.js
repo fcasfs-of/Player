@@ -816,7 +816,7 @@ function set_icon_controls(a) {  var sdad_icon_control=fmdplex_loadex_txv(a);   
 
 
 
-var create_plugin=function(es)  var vdfsdfsfdsdfa ="";  var vidfsdfa = document.getElementById(es);    return {
+function create_plugin(es){  var vdfsdfsfdsdfa ="";  var vidfsdfa = document.getElementById(es);    return {
 modal: function(id){
 var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innherHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
@@ -826,7 +826,7 @@ var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innherHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
 }
 };
-};
+}
 
 
 

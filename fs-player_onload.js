@@ -2,6 +2,8 @@
 function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } function fcasmdplex_load_server(){ return fcasmdplex_loadex.openex.server(); }    
 
 
+function neaddtTime(secs) { var hr  = Math.floor(secs / 3600);  var min = Math.floor((secs - (hr * 3600))/60);  var sec = Math.floor(secs - (hr * 3600) -  (min * 60));  if (hr < 10){     hr = "0" + hr;  } if (min < 10){     min = "0" + min;   }  if (sec < 10){     sec  = "0" + sec;  }  var dsfhusfhvdfv = hr + ':' + min + ':' + sec;   if(dsfhusfhvdfv=="NaN:NaN:NaN"){  var dsfhusfhvdfv="00:00:00";  }    return dsfhusfhvdfv; }
+
  lightbox_inner_addcustom("");
 
 
@@ -19,7 +21,7 @@ var zzszhirtertceardsscz=document.getElementById("down_id_mdoo");    z_setid_att
 var zzszhirtertceardssczz=document.getElementById("down_id_mdoos");    zzszhirtertceardssczz.onclick=function(){zzszhirtertceardsscz.click();};
 }  }
  
-function download_video_setdd(d, v) {   var doddwnload_video_setdd=neatTime(v.duration);   if(doddwnload_video_setdd=="00:00:00"){     }  
+function download_video_setdd(d, v) {   var doddwnload_video_setdd=neaddtTime(v.duration);   if(doddwnload_video_setdd=="00:00:00"){     }  
  else {  dowenload_video_setdd(d, v);  }
 }
 

@@ -1,4 +1,7 @@
 
-  create_plugin("plugins_fs").object("zpreviewdemovideinz");
+ _playerfree = new create_plugin("plugins_fs");
 
-create_plugin("plugins_fs").modal("light_box_modal");
+
+_playerfree.object("zpreviewdemovideinz");
+
+_playerfree.modal("light_box_modal");

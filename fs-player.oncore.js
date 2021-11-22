@@ -816,13 +816,15 @@ function set_icon_controls(a) {  var sdad_icon_control=fmdplex_loadex_txv(a);   
 
 
 
-function create_plugin(es){  var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    return {
-modal: function(id){
-vdfsdfsfdsdfa = vidfsdfa.innerHTML;
+function create_plugin(es){  return {
+modal:function(id){
+var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    
+	vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
 },
-object: function(id){
-vdfsdfsfdsdfa = vidfsdfa.innerHTML;
+object:function(id){
+var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    
+	vdfsdfsfdsdfa = vidfsdfa.innerHTML;
 vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
 },
 };

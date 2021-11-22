@@ -9,7 +9,8 @@ function box_in_set(az,id,idd,t,fl,cp,po, ds,dssa,sdssa){
  lightbox_inner(az, id, { type: t, lightbox:'true', caption: cp, mute:'false', controls:'true', autoplay:'false', loop:'true', volume:ds, currentTime:dssa, playbackRate:sdssa, poster: po }, { caption:{ enable:true }, thumbs:{ enable:false }}, { thumbs:{ id:'' }, caption:{ id: fl }});  
 }
 
-function download_video_setdd(d, v) {   if(neatTime(v.duration)=="00:00:00"){     }  else {
+function download_video_setdd(d, v) {   var doddwnload_video_setdd=neatTime(v.duration);   if(doddwnload_video_setdd=="00:00:00"){     }  
+ else {
  var ex_loadex_downnd=fmdplex_loadex_txv(v.getAttribute("src"));  if(ex_loadex_downnd==""){   }  else {  
  z_setid_attr(d,'href', fmdplex_loadex_txv(v.getAttribute("src")));             z_setid_attr(d,'download', fmdplex_loadex_txv(v.getAttribute("src")));    
  v.pause();  

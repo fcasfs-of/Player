@@ -812,11 +812,11 @@ function set_icon_controls(a) {  var sdad_icon_control=fmdplex_loadex_txv(a);   
 function fs_create_plugin(es){ var vdfsdfsfdsdfa = "";    var vidfsdfa = document.getElementById(es);    return {
 modal:function(id){
 	var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
-vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
+vidfsdfa.innerHTML=""+vdfsdfsfdsdfa+"<div id=\""+id+"\"></div>";
 },
 object:function(id){
 	var vdfsdfsfdsdfa = vidfsdfa.innerHTML;
-vidfsdfa.innerHTML="<br/>"+vdfsdfsfdsdfa+"<br/><div id=\""+id+"\"></div><br/>";
+vidfsdfa.innerHTML=""+vdfsdfsfdsdfa+"<div id=\""+id+"\"></div>";
 },
 };
 }

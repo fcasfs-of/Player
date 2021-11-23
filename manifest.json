@@ -1,0 +1,19 @@
+{
+  "name": "FS_PLAYER",
+  "short_name": "FS - Player",
+  "lang": "en",
+  "theme_color": "#2196f3",
+  "background_color": "#000000",
+  "display": "browser",
+  "orientation": "landscape",
+  "scope": "https://fcasfs-of.github.io/Player/",
+  "start_url": "https://fcasfs-of.github.io/Player/",
+  "icons": [
+  {
+  "src": "",
+  "sizes": "64x64",
+  "type": "image/png"
+  }
+  ],
+  "prefer_related_applications": true
+}

@@ -3,6 +3,7 @@
   "short_name": "FS - Player",
   "description": "Free App",
   "lang": "en",
+  "dir": "/",
   "start_url": "https://fcasfs-of.github.io/Player/",
   "scope": "https://fcasfs-of.github.io/Player/",
   "display": "browser",

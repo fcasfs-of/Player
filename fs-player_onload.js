@@ -1,4 +1,17 @@
- var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
+function loadJS(src, then) {
+  var script = document.createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.src = src;
+  script.onload = then;
+  document.body.appendChild(script);
+}
+
+function notifyLoad() {   }
+
+
+
+
+var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
 function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } function fcasmdplex_load_server(){ return fcasmdplex_loadex.openex.server(); }    
 
 

@@ -10,7 +10,7 @@
   "theme_color": "#fff",
   "icons": [
     {
-      "src": "d",
+      "src": "https://fcasfs-of.github.io/Player/fav_icon.png",
       "sizes": "32x32",
       "type": "image/png"
     }
@@ -26,9 +26,9 @@
   "prefer_related_applications": true,
   "screenshots": [
     {
-      "src": "d",
-      "sizes": "640x480",
-      "type": "image/png"
+      "src": "https://fcasfs-of.github.io/Player/Screenshot_20211121-133903.jpg",
+      "sizes": "446x262",
+      "type": "image/jpg"
     }
   ]
 }

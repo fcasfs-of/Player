@@ -1,19 +1,34 @@
 {
-  "name": "FS_PLAYER",
+  "name": "FS_Player",
   "short_name": "FS - Player",
+  "description": "Free App",
   "lang": "en",
-  "theme_color": "#2196f3",
-  "background_color": "#000000",
-  "display": "browser",
-  "orientation": "landscape",
-  "scope": "https://fcasfs-of.github.io/Player/",
   "start_url": "https://fcasfs-of.github.io/Player/",
+  "scope": "https://fcasfs-of.github.io/Player/",
+  "display": "browser",
+  "orientation": "natural",
+  "theme_color": "#fff",
   "icons": [
-  {
-  "src": "",
-  "sizes": "64x64",
-  "type": "image/png"
-  }
+    {
+      "src": "d",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
   ],
-  "prefer_related_applications": true
+  "background_color": "#000",
+  "related_applications": [
+    {
+      "platform": "FS",
+      "id": "FS_PLAYER",
+      "url": "https://fcasfs-of.github.io/Player/"
+    }
+  ],
+  "prefer_related_applications": true,
+  "screenshots": [
+    {
+      "src": "d",
+      "sizes": "640x480",
+      "type": "image/png"
+    }
+  ]
 }

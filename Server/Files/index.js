@@ -1,4 +1,4 @@
 var server_fs_itens={};
-server_fs_itens.712690675063432847324893="https://fcasfs-of.github.io/Player/Server/File/712690675063432847324893.html";
+server_fs_itens[712690675063432847324893]="https://fcasfs-of.github.io/Player/Server/File/712690675063432847324893.html";
     
 

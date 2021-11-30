@@ -52,7 +52,7 @@ var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=d
   } 
 
 function Reproduce_aLink_s(fl,ob) {   var Reproddfsinkfdsfdf=false;    var Reproddfsink="";    if(fl=='undefined'){   Reproddfsink=""; }   if(fl==''){ Reproddfsink=""; } else {   Reproddfsink=""+fl;   Reproddfsinkfdsfdf=true;  }
-if (Reproddfsinkfdsfdf==true){  var Reprodddfdgdkfdsfdf=server_fs_itens["\""+Reproddfsink+"\""];   location.href=Reprodddfdgdkfdsfdf;
+if (Reproddfsinkfdsfdf==true){  var Reprodddfdgdkfdsfdf=server_fs_itens[""+Reproddfsink+""];   location.href=Reprodddfdgdkfdsfdf;
  }   else  {   }
   } 
 

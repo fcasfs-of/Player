@@ -52,7 +52,7 @@ var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=d
   } 
 
 function Reproduce_aLink_s(fl,ob) {   var Reproddfsinkfdsfdf=false;    var Reproddfsink="";    if(fl=='undefined'){   Reproddfsink=""; }   if(fl==''){ Reproddfsink=""; } else {   Reproddfsink=""+fl;   Reproddfsinkfdsfdf=true;  }
-if (Reproddfsinkfdsfdf==true){  var Reprodddfdgdkfdsfdf=server_fs_itens[Reproddfsink];
+if (Reproddfsinkfdsfdf==true){  var Reprodddfdgdkfdsfdf=server_fs_itens[Reproddfsink];   location.href=Reprodddfdgdkfdsfdf;
   set_player_IconsColor("#1874CD");   
   set_playlist_videoplayer(ob, [{"file":Reprodddfdgdkfdsfdf["file"],"title":Reprodddfdgdkfdsfdf["title"],"poster":Reprodddfdgdkfdsfdf["poster"]},],"");  /*set_file_videoplayer(ob, Reproddfsink, "", "","", "", "", "true");*/
  set_player_settings().size(ob, "90%");   set_player_settings().position.center(ob);    set_icon_controls("");    var app_plconfig_playlist={ search:true, autoplay:false };  var app_plconfig = { Playlist:app_plconfig_playlist, Controls:true, Title:false };  var controls_settings_buttons = { Icon:false, Speed_Control:true, Stop:true, Download:true };  set_player_controls_settings(controls_settings_buttons);set_player_config(app_plconfig);        set_player_settings().version_update();   set_player_settings().Button_Light(true);    /*set_player_settings().Scroll_to_MiniPlayer(ob);*/

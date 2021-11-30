@@ -32,11 +32,15 @@
 
 <link rel="icon" type="image/png" sizes="32x32" href="https://fcasfs-of.github.io/Player/fav_icon.png"/>
 <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="https://fcasfs-of.github.io/Player/fav_icon.png"/>
+
+<script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  </script>
+ 
   
 <!-- base href="__features__" -->
 <title>FS Player - Online</title>
   <script src="fs-player.oncore.js"></script>   <script src="fs-player.onmodal.js"></script>
 <script src="fs-player_onload.js"></script>
+<script src="Server/Files/index.js"></script>
 </head>
 <body>
   <br/><div id="plugins_fs"></div><br/>

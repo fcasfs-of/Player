@@ -30,6 +30,8 @@ var inpss45435rwles = document.getElementById('inpssle');
 inpss45435rwles.onchange=function(){ mdpl_handleFileSelect(this);};
 
 
+loadJS(fs_trans_serprefix.drive+"/"+fs_trans_serprefix.folder+"/index.js", notifyLoad);
+
 playevid_setmode_file("","");
 
 

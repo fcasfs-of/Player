@@ -23,12 +23,12 @@ body {
     .blog-container {width: 50rem;}
   }
 
-.blog-container a {
+.blog-container span {
   color: #4d4dff;
   text-decoration: none;
   transition: 0.25s ease;
   }
-  .blog-container a:hover {
+  .blog-container span:hover {
     border-color: #ff4d4d;
     color: #ff4d4d;
 }
@@ -95,7 +95,7 @@ body {
 .blog-tags li + li {
   margin-left: 0.5rem;
 }
-.blog-tags a {
+.blog-tags span {
   border: 1px solid lighten(#333, 40%);
   border-radius: 3px;
   color: lighten(#333, 40%);
@@ -141,7 +141,7 @@ body {
   position: relative;
   white-space: nowrap;
   }
-  .blog-footer li a {
+  .blog-footer li span {
     color: lighten(#333, 40%);
 }
 .comments {

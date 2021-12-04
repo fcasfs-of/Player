@@ -11,16 +11,16 @@ body {
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   margin: 48px auto;
-  width: 20rem;
+  width: 100%;//20rem;
 }
   @media screen and (min-width: 480px) {
-   .blog-container { width: 28rem;}
+   .blog-containerz { width: 28rem;}
   }
   @media screen and (min-width: 767px) {
-    .blog-container {width: 40rem;}
+    .blog-containerz {width: 40rem;}
   }
   @media screen and (min-width: 959px) {
-    .blog-container {width: 50rem;}
+    .blog-containerz {width: 50rem;}
   }
 
 .blog-container a {

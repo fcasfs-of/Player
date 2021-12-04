@@ -9,7 +9,7 @@ body {
   border-radius: 5px;
   box-shadow: hsla(0, 0, 0, 0.2) 0 4px 2px -2px;
   font-family: "adelle-sans", sans-serif;
-  font-weight: 100;
+  font-weight: 100;  padding:3px;
   margin: 48px auto;
   width: 60%;//20rem;
 }

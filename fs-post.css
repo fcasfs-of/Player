@@ -38,7 +38,7 @@ body {
   background: url("");
   background-size: cover;
   border-radius: 5px 5px 0 0;
-  height: 15rem;
+  //height: 15rem;
   box-shadow: inset hsla(0, 0, 0, 0.2) 0 64px 64px 16px;
 }
 .blog-author,

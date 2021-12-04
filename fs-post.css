@@ -11,7 +11,7 @@ body {
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   margin: 48px auto;
-  width: 80%;//20rem;
+  width: 60%;//20rem;
 }
   @media screen and (min-width: 480px) {
    .blog-containerz { width: 28rem;}
@@ -45,7 +45,7 @@ body {
 .blog-author--no-cover {
   margin: 0 auto;
   padding-top: 0.125rem;
-  width: 80%;
+  width: 100%;
 }
 .blog-author h3::before,
 .blog-author--no-cover h3::before {

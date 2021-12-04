@@ -156,3 +156,20 @@ body {
   position: relative;
   top: -0.5rem;
 }
+
+
+.icon-star,
+.icon-bubble {
+  fill: lighten(#333, 40%);
+  height:24px;
+  margin-right: .5rem;
+  transition: .25s ease;
+  width: 24px;
+}
+.icon-star:hover,
+.icon-bubble:hover {
+    fill: #ff4d4d;
+  }
+}
+
+

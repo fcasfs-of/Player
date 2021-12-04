@@ -11,7 +11,7 @@ body {
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   margin: 48px auto;
-  width: 100%;//20rem;
+  width: 80%;//20rem;
 }
   @media screen and (min-width: 480px) {
    .blog-containerz { width: 28rem;}
@@ -72,7 +72,7 @@ body {
 
 .blog-body {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 .video-body {
   height: 100%;

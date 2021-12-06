@@ -1,0 +1,63 @@
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  
+<meta name="keywords" content="Player"/>
+<meta name="copyright" content="FS"/>
+<meta name="author" content="FCAS"/>
+<meta name="robots" content="all"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fcasfs-of.github.io/Player/Screenshot_20211121-133903.jpg"/>
+<meta name="twitter:url" content="https://fcasfs-of.github.io/Player/"/>
+<meta name="twitter:title" content="FS MDPL"/>
+<meta name="twitter:description" content="FS - Player"/>
+<meta property="og:image" content="https://fcasfs-of.github.io/Player/Screenshot_20211121-133903.jpg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://fcasfs-of.github.io/Player/"/>
+<meta property="og:title" content="FCAS_MDPL"/>
+<meta property="og:description" content="FS - Player"/>
+  
+<link rel="manifest" href="https://fcasfs-of.github.io/Player/manifest.json"/>
+
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="application-name" content="FS - Player"/>
+<meta name="apple-mobile-web-app-title" content="FS - Player"/>
+<meta name="theme-color" content="#fff"/>
+<meta name="msapplication-navbutton-color" content="#fff"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="msapplication-starturl" content="https://fcasfs-of.github.io/Player/"/>
+<meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=no"/>
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://fcasfs-of.github.io/Player/fav_icon.png"/>
+<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="https://fcasfs-of.github.io/Player/fav_icon.png"/>
+
+  <link rel="stylesheet" href="https://fcasfs-of.github.io/Player/fs-post.css"/>
+  
+<script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  </script>
+ 
+  
+<!-- base href="__features__" -->
+<title>FS Player - Online: Search</title>
+
+  <style>
+   input.mdfs_my_val_Input{  /*background: url("");*/  background-position: 10px 12px;  background-repeat: no-repeat;  width: 64px;  font-size: 16px;  padding: 12px 20px 12px 20px;  border: 1px solid #ddd;  margin-bottom: 12px; margin-right:5px; }  input.mdfs_my_val_Input:focus{  border-radius:4px;  width: 72%;  }    .progress:hover .fs_osdseek-tooltip {  transition: all .1s linear;	  visibility: visible;   opacity:1;  transition: opacity 0.3s, visibility 0.3s;	-webkit-transition: opacity 0.3s, visibility 0.3s;transition: all 0.3s;  -webkit-transition: all 0.3s;  }   .mdpl-fcas-audiotrans{transition: all 0.5s linear;   -webkit-transition: all 0.5s linear;   -moz-transition: all 0.5s linear;}  
+  </style>
+  
+</head>
+<body id="emb-fs">
+  
+
+  <div>
+<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center;  id="pl_ar_sera_aip_r_inr">   <input id="f_mdfs_my_val_Input" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list('f');" placeholder="Search..." title="" type="text" style="position:absolute; top:5px;left:6px; "/>  </span>  <div style="position:absolute;bottom:4px;right:4px;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#fff;" id="Results_search_f"></div>    
+  </div>
+  
+  
+
+ <script>  
+
+</script>
+
+</body>
+</html>

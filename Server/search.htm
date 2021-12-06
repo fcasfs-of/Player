@@ -114,7 +114,7 @@ target.innerHTML += '<p>' + "" + '<a href="' + f[1] + '">'+ f[0] +'</a></p>';
 var bfftn = document.getElementById("btn-search"),//click
 searchForm = document.getElementById("search-form");//this links to the form in HTML
 
-bfftn.onclick=adr.search;
+searchForm.onsubmit=adr.search;
 </script>
 
 </body>

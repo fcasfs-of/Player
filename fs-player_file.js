@@ -3,7 +3,7 @@ Reproduce_aLink(zsssasd_iswe,"zpreviewdemovideinz");
 
 
 
-  var fdsforfgdgm = document.querySelectorAll('.comments');
+  var fdsforfgdgm = document.querySelectorAll('.comments a');
   fdsforfgdgm.onclick=function(e) {
     e.preventDefault();
 

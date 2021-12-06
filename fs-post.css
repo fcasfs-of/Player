@@ -20,7 +20,7 @@ h2::after {
   margin-top: 0.5em;
 }
 
-.comments {
+div.comments {
   position: relative;
   width: 100%;
   background: #fff;
@@ -30,7 +30,7 @@ h2::after {
   top: 5em;
 }
 
-.comments::after {
+div.comments::after {
   content: " ";
   display: table;
   clear: both;
@@ -129,7 +129,7 @@ h2::after {
 
 @media only screen and (min-width: 1020px) {
 
-  .comments { width: 970px; padding: 52px; }
+  div.comments { width: 970px; padding: 52px; }
 
   .comments__form-info,
   .comments__form-text { width: 407px; }

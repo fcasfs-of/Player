@@ -40,7 +40,7 @@
 
 function searcha(nameKey, myArray, vff){
     for (var i=0; i < myArray.length; i++) {
-        if (myArray[i][0] === nameKey) {
+        if (myArray[i][0] == nameKey) {
             return vff(myArray[i]);
         }
     }

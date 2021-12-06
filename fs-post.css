@@ -277,7 +277,7 @@ div.comments::after {
   .blog-footer li a {
     color: lighten(#333, 40%);
 }
-.comments {
+li.comments {
   margin-right: 1rem;
 }
 .published-date {

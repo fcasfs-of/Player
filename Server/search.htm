@@ -77,9 +77,11 @@ search : function(event){
             isItFound = obj.name.indexOf(searchValue);
 
             //anything other than -1 means we found a match
-            if(isItFound !== -1) {
-            target.innerHTML += '<p>' + "" + ', <a href="' + obj.fl +      '">'+ obj.name +'</a></p>';             
-            }// end if
+ isItFound = -1;
+if (obj.name===searchValue) {
+  isItFound = i;
+target.innerHTML += '<p>' + "" + '<a href="' + obj.fl + '">'+ obj.name +'</a></p>'; 
+}// end if
         }//end for loop
     } // end count check
 }//end method

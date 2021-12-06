@@ -59,8 +59,6 @@ var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=d
 
    var wqqzasdfdffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     wqqzasdfdffsswwmdpssswwfltl.innerHTML="<div style=1padding:4px;'>"+wqqzasdfsfgsswwfltl+"</div><br/><br/><br/><br/>";
 
- windows.onload=function(){ var pladfsfdfyer = document.querySelector('li.comments');   pladfsfdfyer.onclick=function(){mdpl_ztoogle_dispNav(wqqzasdffgdgsswwmdpssswwfltl);};  };
-
 } 
 
 

@@ -43,11 +43,6 @@
 function mspl_search_clet(d){  var search_input = document.getElementById("f_mdfs_my_val_Input");  search_input.value=""; mspl_search_list(d);   }
 
   
-/* Address Book Data, this is our JSON object*/
-var contacts = {
-"address" : server_fs_itens,//The groupingPropertyBracket
-};
-//Adding a Listener to a Form submit Event
 
 /*define the adr object to hold your methods (aka functions) */
 var adr = {
@@ -60,27 +55,27 @@ search : function(event){
     var target = document.getElementById("output");
 
     //save the contacts JSON object to a variable
-    var book = contacts.address;
+    var book = server_fs_itens;
 
     /* save the length to a variable outside the loop for performance */
     var count = book.length;
-    var searchValue = document.getElementById('q').value;
+    var searchValue = document.getElementById('q');
     var i, isItFound;
     target.innerHTML = "";
 
     //check the count, ofcourse and check to see if the value isn't empty
-    if(count > 0 && searchValue !== ""){            //loop through the contacts
+    if(count > 0 && searchValue.value !== ""){            //loop through the contacts
 
         for(i = 0; i < count; i = i + 1) {
             //look through the name value to see if
             //it contains the searchterm string
-            var obj = contacts.address[i];
-            isItFound = obj.indexOf(searchValue);//
+            var obj = server_fs_itens[i];
+            isItFound = obj.indexOf(searchValue.value);//
           var vobjd=isItFound;
 
             //anything other than -1 means we found a match
  isItFound = -1;
-if (obj.name==searchValue) {
+if (obj[i]==searchValue.value) {
   isItFound = i;
 target.innerHTML += '<p>' + "" + '<a href="' + server_fs_itenssa[i] + '">'+ vobjd +'</a></p>'; 
 }// end if

@@ -58,7 +58,6 @@ function Reproduce_aLink_s(fl, Reproddfsink_f,Reproddfsink_t,Reproddfsink_p, ob)
 var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=download_video_setdd;      
 
    var wqqzasdfdffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     wqqzasdfdffsswwmdpssswwfltl.innerHTML="<div style=1padding:4px;'>"+wqqzasdfsfgsswwfltl+"</div><br/><br/><br/><br/>";
-var pladfsfdfyer = document.querySelector('.comments');   pladfsfdfyer.onclick=function(){mdpl_ztoogle_dispNav(wqqzasdffgdgsswwmdpssswwfltl);};
                                                                                   
 } 
 

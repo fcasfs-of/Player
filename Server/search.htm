@@ -74,7 +74,7 @@ search : function(event){
             //look through the name value to see if
             //it contains the searchterm string
             var obj = contacts.address[i];
-            isItFound = obj.name.indexOf(searchValue);
+            isItFound = obj.name.find(searchValue);//indexOf
 
             //anything other than -1 means we found a match
  isItFound = -1;

@@ -76,7 +76,7 @@ search : function(event){
 
             //anything other than -1 means we found a match
  isItFound = -1;
-if (vobjd===searchValue.value) {
+if (vobjd[0]===searchValue.value) {
   isItFound = i;
 target.innerHTML += '<p>' + "" + '<a href="' + vobjd[1] + '">'+ vobjd[0] +'</a></p>'; 
 

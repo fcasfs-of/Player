@@ -53,23 +53,17 @@ function mspl_search_clet(d){  var search_input = document.getElementById("f_mdf
 
   
 
-/*define the adr object to hold your methods (aka functions) */
 var adr = {
-//define the form submit event method
-search : function(event){
-    //prevent the default bahavior
+search: function(event){
     event.preventDefault();
 
-    //save the DOM element we're putting the output in
-    var target = document.getElementById("output");
+     var target = document.getElementById("output");
 
-    //save the contacts JSON object to a variable
     var book = server_fs_itens;
 
-    /* save the length to a variable outside the loop for performance */
     var count = book.length;
     var searchValue = document.getElementById('q');
-    var i, isItFound;
+    //var i, isItFound;
     target.innerHTML = "";
 
             var vobjd=searcha(searchValue.value, server_fs_itens, function(f){
@@ -78,8 +72,8 @@ target.innerHTML += '<p>' + "" + '<a href="' + f[1] + '">'+ f[0] +'</a></p>';
             });
 
 
-}//end method
-};//end object
+}
+};
 
 
   </script>

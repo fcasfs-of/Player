@@ -64,7 +64,7 @@ search : function(event){
     /* save the length to a variable outside the loop for performance */
     var count = book.length;
     var searchValue = document.getElementById('q').value;
-    var i;
+    var i, isItFound;
     target.innerHTML = "";
 
     //check the count, ofcourse and check to see if the value isn't empty
@@ -74,13 +74,14 @@ search : function(event){
             //look through the name value to see if
             //it contains the searchterm string
             var obj = contacts.address[i];
-            isItFound = obj.name.find(searchValue);//indexOf
+            isItFound = obj.indexOf(searchValue);//
+          var vobjd=isItFound;
 
             //anything other than -1 means we found a match
  isItFound = -1;
 if (obj.name==searchValue) {
   isItFound = i;
-target.innerHTML += '<p>' + "" + '<a href="' + obj.fl + '">'+ obj.name +'</a></p>'; 
+target.innerHTML += '<p>' + "" + '<a href="' + server_fs_itenssa[i] + '">'+ vobjd +'</a></p>'; 
 }// end if
         }//end for loop
     } // end count check

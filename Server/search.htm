@@ -38,10 +38,10 @@
   <script src="https://fcasfs-of.github.io/Player/Server/Files/0-index.js"></script>
 <script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  
 
-function searcha(nameKey, myArray){
+function searcha(nameKey, myArray, vff){
     for (var i=0; i < myArray.length; i++) {
         if (myArray[i][0] === nameKey) {
-            return myArray[i];
+            return vff(myArray[i]);
         }
     }
 }
@@ -72,16 +72,14 @@ search : function(event){
     var i, isItFound;
     target.innerHTML = "";
 
-            var vobjd=searcha(searchValue.value, server_fs_itens);
+            var vobjd=searcha(searchValue.value, server_fs_itens, function(f){
+              var target = document.getElementById("output");
+target.innerHTML += '<p>' + "" + '<a href="' + f[1] + '">'+ f[0] +'</a></p>'; 
+            });
 
-            //anything other than -1 means we found a match
- isItFound = -1;
-if (vobjd[0]===searchValue.value) {
-  isItFound = i;
-target.innerHTML += '<p>' + "" + '<a href="' + vobjd[1] + '">'+ vobjd[0] +'</a></p>'; 
 
 }//end method
-}//end object
+};//end object
 
 
   </script>

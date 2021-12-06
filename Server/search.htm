@@ -41,6 +41,52 @@
      sdddResultsinput.innerHTML=liCount_Results+"";   }
 function mspl_search_clet(d){  var search_input = document.getElementById("f_mdfs_my_val_Input");  search_input.value=""; mspl_search_list(d);   }
 
+  
+/* Address Book Data, this is our JSON object*/
+var contacts = {
+"address" : [
+]//The groupingPropertyBracket
+};
+//Adding a Listener to a Form submit Event
+
+/*define the adr object to hold your methods (aka functions) */
+var adr = {
+//define the form submit event method
+search : function(event){
+    //prevent the default bahavior
+    event.preventDefault();
+
+    //save the DOM element we're putting the output in
+    var target = document.getElementById("output");
+
+    //save the contacts JSON object to a variable
+    var book = contacts.address;
+
+    /* save the length to a variable outside the loop for performance */
+    var count = book.length;
+    var searchValue = document.getElementById('q');
+    var i;
+    target.innerHTML = "";
+
+    //check the count, ofcourse and check to see if the value isn't empty
+    if(count > 0 && searchValue !== ""){            //loop through the contacts
+
+        for(i = 0; i < count; i = i + 1) {
+            //look through the name value to see if
+            //it contains the searchterm string
+            var obj = contacts.address[i];
+            isItFound = obj.name.indexOf(searchValue);
+
+            //anything other than -1 means we found a match
+            if(isItFound !== -1) {
+            target.innerHTML += '<p>' + "" + ', <a href="' + obj.fl +      '">'+ obj.name +'</a></p>';             
+            }// end if
+        }//end for loop
+    } // end count check
+}//end method
+}//end object
+
+
   </script>
  
   
@@ -56,14 +102,33 @@ function mspl_search_clet(d){  var search_input = document.getElementById("f_mdf
 <body id="emb-fs">
   
 
-  <div>
-<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center; " id="pl_ar_sera_aip_r_inr">   <input id="f_mdfs_my_val_Input" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:absolute; top:5px;left:6px; "/>  </span>  <br/><br/><div style="padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#000;" id="Results_search_f"></div><br/><div id="zResults_search_f"></div>    
+  <div>   
+  <form action="" method="get" id="search-form">
+    <span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center; " id="pl_ar_sera_aip_r_inr">   
+        <div class="section">
+            <label for="q">Search File</label>
+            <input type="search" id="q" name="q" required  placeholder="Search..." title="" class="mdfs_my_val_Input mdpl-fcas-audiotrans"  style="position:absolute; top:5px;left:6px; "/>
+        </div> 
+ </span>  
+     </form>
+   <br/><br/>
+      <div class="button-group">
+            <button type="submit" id="btn-search">Search</button>
+            <button type="button" id="getall" style="display:none;"></button>
+        </div> 
+
+    <div id="output"></div> <!-- /#output -->
+
   </div>
   
   
 
  <script>  
+var btn = document.getElementById("getall"),//click
+searchForm = document.getElementById("search-form");//this links to the form in HTML
 
+
+searchForm.addEventListener("submit", adr.search, false);
 </script>
 
 </body>

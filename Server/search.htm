@@ -38,7 +38,11 @@
   <script src="https://fcasfs-of.github.io/Player/Server/Files/0-index.js"></script>
 <script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  
 
-function searcha(nameKey, myArray, vff){
+var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
+  
+  function fmdplex_loadex_txv(t){  if(t==""){    return "";  }   if(t=="undefined"){    return "";  }     if(t==undefined){    return "";  }   else {  return t; }  }   
+  
+  function searcha(nameKey, myArray, vff){
     for (var i=0; i < myArray.length; i++) {
         if (myArray[i][0] == nameKey) {
             return vff(myArray[i]);
@@ -110,7 +114,7 @@ li a:hover {
   
 
   <div>   
-<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center;"  id="pl_ar_sera_aip_r_inr">   <label for="f_mdfs_my_val_Input">Search File</label> <input name="f_mdfs_my_val_Input" id="f_mdfs_my_val_Input" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:absolute; top:5px;left:6px; "/>  </span>  <div style="position:absolute;bottom:4px;right:4px;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#000;" id="Results_search_f"></div> 
+<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center;"  id="pl_ar_sera_aip_r_inr">   <label for="f_mdfs_my_val_Input">Search File</label> <input name="f_mdfs_my_val_Input" id="f_mdfs_my_val_Input" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:relative; left:6px; "/>  </span>  <div style="position:absolute;bottom:4px;right:4px;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#000;" id="Results_search_f"></div> 
  <br/><br/><div><br/><ul id="f_list_filesaaa"></ul><br/><div>
   </div>
   
@@ -118,7 +122,8 @@ li a:hover {
 
  <script>  
    var targf_list_filesaaaet = document.getElementById("f_list_filesaaa");  targf_list_filesaaaet.innerHTML=""+targf_ddlist_filesaaaet;
-</script>
+var targf_list_fidsflesaaaet = document.getElementById("f_mdfs_my_val_Input");  targf_list_fidsflesaaaet.value=fmdplex_loadex_txv(fcasmdplex_loadex.open("?q="));    mspl_search_list();
+    </script>
 
 </body>
 </html>

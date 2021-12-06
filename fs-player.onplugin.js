@@ -14,6 +14,8 @@ fs_create_plugin("emb-fs").object("lightcomme_box_modal");
 
 var wqqzasdfsswwmdpssswwfltl = document.getElementById('vtnsharre');     wqqzasdfsswwmdpssswwfltl.innerHTML=""+"";
 
+var wqqzasdffgdgsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     wqqzasdffgdgsswwmdpssswwfltl.style.display="none"+"";
+
 
 
 function setcoome(e){  

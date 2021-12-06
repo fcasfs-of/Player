@@ -78,7 +78,7 @@ search : function(event){
 
             //anything other than -1 means we found a match
  isItFound = -1;
-if (obj.name===searchValue) {
+if (obj.name==searchValue) {
   isItFound = i;
 target.innerHTML += '<p>' + "" + '<a href="' + obj.fl + '">'+ obj.name +'</a></p>'; 
 }// end if

@@ -645,6 +645,16 @@ video.addEventListener('canplay', update_all);
 volumeBtn.addEventListener('click', toggleMute);
 video.addEventListener('updateMediaState', function(){  mdplprogressgetpl(video,"progress_soj");  });
 
+	
+window.addEventListener("orientationchange", function(event) {
+  var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
+if ( ["landscape-primary","landscape-secondary"].indexOf(orientation)!=-1) {
+toggleFullscreen();
+}
+else if (orientation === undefined) {
+}
+});
+	
 
 kddvideopl.addEventListener('mousedown', () => isMouseDown = true);
 kddvideopl.addEventListener('mouseup', () => isMouseDown = false);

@@ -649,7 +649,7 @@ video.addEventListener('updateMediaState', function(){  mdplprogressgetpl(video,
 window.screen.orientation.addEventListener('change', function(){
 		//Let's request fullscreen if user switches device in landscape mode.
 		if ( this.type.startsWith('landscape') ){
-			toggleFullscreen();
+			launchIntoFullscreen(player);
 		} else if ( document.fullscreenElement ){
 			exitFullscreen();
 		}

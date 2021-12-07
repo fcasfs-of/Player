@@ -362,7 +362,7 @@ pre.code code {
 }
 
 pre::after {
-    content: "double click to selection";
+    content: "click to copy";
     padding: 4px;
     width: auto;
     height: auto;

@@ -22,7 +22,6 @@ targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(loacol9d+"/714590675
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(loacol9d+"/711678979903432040410011.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Space_Sheriff_Memorial - PV_000267.jpg","Space_Sheriff_Memorial - PV");
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(loacol9d+"712690675063432847324893/.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Sekai Ninja Sen Jiraiya - Full Songs_000294.jpg","Sekai Ninja Sen Jiraiya - Full Songs");
 
-
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'';
 
 

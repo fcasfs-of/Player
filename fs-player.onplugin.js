@@ -17,6 +17,24 @@ fs_create_plugin("emb-fs").object("lightembe_box_modal");
 
 
 
+function SelectfTdfext(element) {
+    var doc = document, text = doc.getElementById(element), range, selection;    
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();        
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+
+
+
 var wqqzasdfsswwmdpssswwfltl = document.getElementById('vtnsharre');     wqqzasdfsswwmdpssswwfltl.innerHTML=""+"";
 
 var wqqzasdffgdgsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     wqqzasdffgdgsswwmdpssswwfltl.style.display="none"+"";
@@ -33,7 +51,7 @@ var wqqzasdfsfgsswwfltl = ""+'<div class="comments">    <h2>Leave a comment</h2>
 var wqqzasdfsfgsswwfltlz = '<div><pre class="code wp-block-code code-html" onclick="vop_emjjg();" style="background:#fff;"><label style="text-align:center;">embed</label><code id="embe-ilss">&lt;iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""&gt;&lt;/iframe&gt;</code><hr/><pre class="first wp-block-code"><span style="color:#fff;">?embed=true  -(preview of file)<br/>?info=true  -(view info file)</span></pre></pre></div>';
  
 function vop_emjjg(){  
-var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');
+var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');  SelectfTdfext('embe-ilss');
  copy.copy_text('<iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""></iframe>');
 }
 

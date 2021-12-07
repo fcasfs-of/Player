@@ -363,7 +363,7 @@ function skipAhead(event) {
 
 var appdd_opp_liyesetupsar = document.getElementById(za+"_list_opp_itn");
 var adadappdd_opp_liyesetupsar = document.getElementById(za+"_vlist");       adadappdd_opp_liyesetupsar.style.width="100%";  adadappdd_opp_liyesetupsar.style.height="0%";  
-var adadappdd_opp_liyesetupsarsdad="<li style=\"float:left;\"><label class=\"fscontainer\" style=\"text-align:left;\">Scroll to Mini Player  <input type=\"checkbox\" "+fdpl_val_ck(app_mdpl_Scroll_to_MiniPlayer_i[za])+" id=\"d_player_cscrolldps_aulay_"+za+"\"/>   <span class=\"fscheckmark\"></span>  </label></li>";
+var adadappdd_opp_liyesetupsarsdad="<li style=\"float:left;display:none;\"><label class=\"fscontainer\" style=\"text-align:left;\">Scroll to Mini Player  <input type=\"checkbox\" "+fdpl_val_ck(app_mdpl_Scroll_to_MiniPlayer_i[za])+" id=\"d_player_cscrolldps_aulay_"+za+"\"/>   <span class=\"fscheckmark\"></span>  </label></li>";
 var adadappdd_opp_liyese_sctiio=adadappdd_opp_liyesetupsarsdad;   
 appdd_opp_liyesetupsar.innerHTML=""+"<div style='padding:3px;'>"+sbtn_nsapdownt+""+sbtn_nplships+"</div><br/><br/>"+"<div style=\"padding:4x;\">  "+"<ul style=\"list-style: none;\">"+adadappdd_opp_liyese_sctiio+"</ul><br/><br/>"+"<ul style=\"list-style: none;\">   <span style=\"font-size:20px;color:#fff;pointer-events:none;padding-left:4px; padding-right:4px;padding:2px;margin:0 auto;text-align:left;\">Quality</span><br/>  <li style=\"float:left;\"><a class=\"listts-itemd align_left active\" style=\"pointer-events:auto;\" onclick=\"set_mdpl_ulit_aus(pl_dispNav('plvideo'));closeNavvlist('"+za+"_vlist');\">Automatic</a></li>  </ul> "+'<div id="'+za+'_list_opp_itnss"></div>'+" </div>";
 

@@ -290,6 +290,8 @@ li.comments {
   top: -0.5rem;
 }
 
+.blog-footer,.blog-tags,.blog-summary,.blog-title {overflow: auto;}
+
 
 .icon-star,
 .icon-bubble {

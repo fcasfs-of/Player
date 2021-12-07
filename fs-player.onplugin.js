@@ -10,8 +10,8 @@ fs_create_plugin("plugins_fs").object("vtnsharre");
 fs_create_plugin("plugins_fs").modal("light_box_modal");
 
 
-fs_create_plugin("emb-fs").object("lightcomme_box_modal");
-fs_create_plugin("emb-fs").object("lightembe_box_modal");
+fs_create_plugin("emb-fs").object("lightcomme_box_modal"); 
+fs_create_plugin("emb-fs").object("lightembe_box_modal"); 
 
 
 

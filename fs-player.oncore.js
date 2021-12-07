@@ -646,16 +646,15 @@ volumeBtn.addEventListener('click', toggleMute);
 video.addEventListener('updateMediaState', function(){  mdplprogressgetpl(video,"progress_soj");  });
 
 	
-if ( 'orientation' in screen ){
-	screen.orientation.addEventListener('change', function(){
+window.screen.orientation.addEventListener('change', function(){
 		//Let's request fullscreen if user switches device in landscape mode.
-		if ( screen.orientation.type.startsWith('landscape') ){
+		if ( this.type.startsWith('landscape') ){
 			toggleFullscreen();
 		} else if ( document.fullscreenElement ){
 			exitFullscreen();
 		}
-	})
-}
+	});
+
 	
 
 kddvideopl.addEventListener('mousedown', () => isMouseDown = true);

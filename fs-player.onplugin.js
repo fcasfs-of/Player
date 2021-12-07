@@ -33,7 +33,7 @@ var wqqzasdfsfgsswwfltlz = '<div><pre class="code wp-block-code code-html" oncli
  
 function vop_emjjg(){
 var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');
- copy.copy_text(decodeURIComponent(wqqzasdffgdgsembeddlsswwfltl.innerHTML));};
+ copy.copy_text('<iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""></iframe>');};
 
 var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');
 var wqqzasdffgdgslightembe_box_modalpssswwfltl = document.getElementById('lightembe_box_modal');   wqqzasdffgdgslightembe_box_modalpssswwfltl.style.display="none";   wqqzasdffgdgslightembe_box_modalpssswwfltl.innerHTML=wqqzasdfsfgsswwfltlz;

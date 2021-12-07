@@ -30,7 +30,7 @@ var inpss45435rwles = document.getElementById('inpssle');
 inpss45435rwles.onchange=function(){ mdpl_handleFileSelect(this);};
 
 
-loadJS("Server/Files"+"/index.js", notifyLoad);
+//loadJS("Server/Files"+"/index.js", notifyLoad);
 
 playevid_setmode_file("","");
 

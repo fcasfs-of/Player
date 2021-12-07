@@ -1,11 +1,8 @@
 
 
-function truncate(input) {
-   if (input.length > 5) {
-      return input.substring(0, 45) + '...';
-   }
-   return input;
-};
+function truncateWithEllipseds(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
+function truncate(input) {   return truncateWithEllipseds(input, 45);};
+
 
 
 var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 

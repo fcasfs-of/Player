@@ -52,8 +52,8 @@ var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss
 
   
   
-  function mspl_search_list(d){   var sdddResultsinput = document.getElementById("Results_search_f");   var search_input, search_filter, list_ul, itens_li, resul_a, itens_id, txt_res_Value;    search_input = document.getElementById("f_mdfs_my_val_Input");    search_filter = search_input.value.toUpperCase();    list_ul = document.getElementById("f_list_filesaaa");    itens_li = list_ul.getElementsByTagName("a");   var lResultiCount = 0;   for (itens_id = 0; itens_id < itens_li.length; itens_id++) {    itens_li[itens_id].style.display = "none";    resul_a = itens_li[itens_id];        txt_res_Value = resul_a.textContent || resul_a.innerText;        if (txt_res_Value.toUpperCase().indexOf(search_filter) > -1 || search_filter=="*.*") {          if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){   itens_li[itens_id].style.display = "none";  }  else{     itens_li[itens_id].style.display = "";   lResultiCount++;    }     } else {            itens_li[itens_id].style.display = "none";        }     }   var liCount_Results=lResultiCount + " Results Found";  if(liCount_Results=="0 Results Found"){  var liCount_Results="No" + " Results Found";    }   if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){  var liCount_Results="";  }   if(search_filter=="*.*") {  if(liCount_Results=="No Results Found"){ var liCount_Results=""; }   }     sdddResultsinput.innerHTML=liCount_Results;   }
-  function mspl_search_clet(d){  var search_input = document.getElementById("f_mdfs_my_val_Input");  search_input.value=""; mspl_search_list(d);   }
+  function mspl_search_list(d){   var sdddResultsinput = document.getElementById("Results_search_f");   var search_input, search_filter, list_ul, itens_li, resul_a, itens_id, txt_res_Value;    search_input = document.getElementById("q");    search_filter = search_input.value.toUpperCase();    list_ul = document.getElementById("f_list_filesaaa");    itens_li = list_ul.getElementsByTagName("a");   var lResultiCount = 0;   for (itens_id = 0; itens_id < itens_li.length; itens_id++) {    itens_li[itens_id].style.display = "none";    resul_a = itens_li[itens_id];        txt_res_Value = resul_a.textContent || resul_a.innerText;        if (txt_res_Value.toUpperCase().indexOf(search_filter) > -1 || search_filter=="*.*") {          if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){   itens_li[itens_id].style.display = "none";  }  else{     itens_li[itens_id].style.display = "";   lResultiCount++;    }     } else {            itens_li[itens_id].style.display = "none";        }     }   var liCount_Results=lResultiCount + " Results Found";  if(liCount_Results=="0 Results Found"){  var liCount_Results="No" + " Results Found";    }   if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){  var liCount_Results="";  }   if(search_filter=="*.*") {  if(liCount_Results=="No Results Found"){ var liCount_Results=""; }   }     sdddResultsinput.innerHTML=liCount_Results;   }
+  function mspl_search_clet(d){  var search_input = document.getElementById("q");  search_input.value=""; mspl_search_list(d);   }
 
   
 
@@ -128,7 +128,7 @@ ul li { float:left;
   
 
   <div>   
-<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center;"  id="pl_ar_sera_aip_r_inr">   <form id="f_mfdval_Input" action="https://fcasfs-of.github.io/Player/Server/search.htm">  <label for="q">Search File</label> <input name="q" id="f_mdfs_my_val_Input" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:relative; left:6px; "/> </form>  </span>  <br/><div style="position:relative;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#000;" id="Results_search_f"></div>
+<span style="line-height: normal; padding: 6px; pointer-events: auto; text-align: center;"  id="pl_ar_sera_aip_r_inr">   <form id="f_mfdval_Input" action="https://fcasfs-of.github.io/Player/Server/search.htm">  <label for="q">Search File</label> <input name="q" id="q" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:relative; left:6px; "/> </form>  </span>  <br/><div style="position:relative;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;color:#0000FF;color:#000;" id="Results_search_f"></div>
  <br/><div><br/><ul id="f_list_filesaaa" class="mdpl-fcas-audiotrans"></ul><br/><div>
   </div>
   
@@ -136,7 +136,7 @@ ul li { float:left;
 
  <script>  
    var targf_list_filesaaaet = document.getElementById("f_list_filesaaa");  targf_list_filesaaaet.innerHTML=""+targf_ddlist_filesaaaet;
-var targf_list_fidsflesaaaet = document.getElementById("f_mdfs_my_val_Input");  targf_list_fidsflesaaaet.value=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?q=").replace(/\+/g,  " ")));    mspl_search_list();
+var targf_list_fidsflesaaaet = document.getElementById("q");  targf_list_fidsflesaaaet.value=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?q=").replace(/\+/g,  " ")));    mspl_search_list();
 var tadrgf_list_fidsflesaaaet = document.getElementById("f_mfdval_Input"); 
    //tadrgf_list_fidsflesaaaet.onsubmit=function(){location.href="https://fcasfs-of.github.io/Player/Server/search.htm?q="+targf_list_fidsflesaaaet.value;};
     </script>

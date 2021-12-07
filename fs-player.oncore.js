@@ -650,8 +650,7 @@ window.screen.orientation.addEventListener('change', function(){
 		if ( this.type.startsWith('landscape') ){
 			 if(fullscreen===true){  }  else{ toggleFullscreen(); }
 		} else if ( document.fullscreenElement ){
-			//if(fullscreen===true){  }  else{ 
-			exitFullscreen(); //}
+			if(fullscreen===true){ exitFullscreen(); }  else{  }
 		}
 });
 

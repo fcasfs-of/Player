@@ -51,9 +51,9 @@ var wqqzasdfsfgsswwfltl = ""+'<div class="comments">    <h2>Leave a comment</h2>
 var wqqzasdfsfgsswwfltlz = '<div><pre class="code wp-block-code code-html" onclick="vop_emjjg();" style="background:#fff;"><label style="text-align:center;">embed</label><code id="embe-ilss">&lt;iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""&gt;&lt;/iframe&gt;</code><hr/><pre class="first wp-block-code"><span style="color:#fff;">?embed=true  -(preview of file)<br/>?info=true  -(view info file)</span></pre></pre></div>';
  
 function vop_emjjg(){  
-var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');  SelectfTdfext('embe-ilss');
+var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');  
  copy.copy_text('<iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""></iframe>');
-}
+SelectfTdfext("embe-ilss");}
 
 var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');
 var wqqzasdffgdgslightembe_box_modalpssswwfltl = document.getElementById('lightembe_box_modal');   wqqzasdffgdgslightembe_box_modalpssswwfltl.style.display="none";   wqqzasdffgdgslightembe_box_modalpssswwfltl.innerHTML=wqqzasdfsfgsswwfltlz;

@@ -290,7 +290,7 @@ li.comments {
   top: -0.5rem;
 }
 
-.blog-footer,.blog-tags,.blog-summary,.blog-title {overflow: auto;}
+.blog-footer {overflow: auto;}.blog-tags {overflow: auto;}.blog-summary,.blog-summary p {overflow: auto;}.blog-title, .blog-title h1 {overflow: auto;}
 
 
 .icon-star,

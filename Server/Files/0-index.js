@@ -1,5 +1,5 @@
 function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
-function truncgate(input) {   return truncateWithEllipses(input, 200);};
+function truncgate(input) {   return truncateWithEllipses(input, 100);};
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files";

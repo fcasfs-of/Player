@@ -654,7 +654,6 @@ window.screen.orientation.addEventListener('change', function(){
 		}
 });
 
-	
 
 kddvideopl.addEventListener('mousedown', () => isMouseDown = true);
 kddvideopl.addEventListener('mouseup', () => isMouseDown = false);

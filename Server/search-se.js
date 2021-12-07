@@ -1,4 +1,5 @@
 
+var loacol_thum = false;
 
 function truncateWithEllipseds(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
 function truncate(input) {   return truncateWithEllipseds(input, 45);};

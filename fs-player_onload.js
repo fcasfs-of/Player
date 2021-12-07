@@ -70,7 +70,7 @@ var zsssasd_iswez = ""+"";
 
 
 function lks_favvss() {  
-
+mdpl_ztoogle_dispNav(wqqzasdffgdgslightembe_box_modalpssswwfltl);
 }  
 
 

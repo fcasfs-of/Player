@@ -116,7 +116,11 @@ ul li:hover a:hover .fa {
   opacity:1;transition: all 0.1s linear;	
 }
 ul li { 
-  width: 100%;  background-color: #f1f1f1;transition: all 0.1s linear;
+  border-bottom: 1px solid #000;  width: 100%;  background-color: #f1f1f1;transition: all 0.1s linear;
+}
+ul li:nth-child(4n+1):nth-last-child(-n+4),
+  ul li:nth-child(4n+1):nth-last-child(-n+4) ~ ul li {
+    border:none;
 }
     
     

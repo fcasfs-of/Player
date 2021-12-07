@@ -1,4 +1,5 @@
-function truncgate(input) {   if (input.length > 5) {      return input.substring(0, 45) + '...';   }   return input;};
+function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
+function truncgate(input) {   return truncateWithEllipses(input, 45);};
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files";

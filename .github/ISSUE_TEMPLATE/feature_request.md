@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: FS
 labels: ''
-assignees: ''
+assignees: fcasfs-of
 
 ---
 

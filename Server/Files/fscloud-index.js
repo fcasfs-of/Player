@@ -1,7 +1,7 @@
 function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
 function truncgate(input) {   return truncateWithEllipses(input, 100);}
 
-function si_thud(zz,input) {  var si_thudsss="";  //var loacol_thum= true;
+function si_thud(zz,input) {  var zz=zz;  var si_thudsss="";  //var loacol_thum= true;
   if(zz==true){ si_thudsss=input; }   return si_thudsss;  }
 
 

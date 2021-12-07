@@ -391,3 +391,7 @@ pre.code-javascript code {    color: #f57c00;}
 pre.code-jquery code {    color: #78909c;}
 
 
+
+#list_od, #tags-oi, #titl-io, #des-oi {overflow: auto;}
+
+

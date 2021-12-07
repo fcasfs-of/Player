@@ -648,9 +648,9 @@ video.addEventListener('updateMediaState', function(){  mdplprogressgetpl(video,
 	
 window.screen.orientation.addEventListener('change', function(){
 		if ( this.type.startsWith('landscape') ){
-			 toggleFullscreen();  if(fullscreen===true){ launchIntoFullscreen(player); }  else{ exitFullscreen(); }
+			  if(fullscreen===true){ launchIntoFullscreen(player); }  else{ toggleFullscreen();  }
 		} else if ( document.fullscreenElement ){
-			exitFullscreen(); 
+			if(fullscreen===true){ exitFullscreen(); }  else{  }
 		}
 });
 

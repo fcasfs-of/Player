@@ -29,4 +29,5 @@ var wqqzasdfsfgsswwfltl = ""+'<div class="comments">    <h2>Leave a comment</h2>
 var wqqzasdfsfgsswwfltlz = '<pre class="code wp-block-code code-html"><label>embed</label><code>&lt;iframe src="'+location.href+'" width="320" frameborder="0" height="240" style="height:100%;width:100%;" allowfullscreen=""&gt;&lt;/iframe&gt;</code><hr/><pre class="first wp-block-code"><code style="color:#fff;">?embed=true  -(preview of file)<br/>?info=true  -(view info file)</code></pre></pre>';
  
 var wqqzasdffgdgslightembe_box_modalpssswwfltl = document.getElementById('lightembe_box_modal');   wqqzasdffgdgslightembe_box_modalpssswwfltl.style.display="none";   wqqzasdffgdgslightembe_box_modalpssswwfltl.innerHTML=wqqzasdfsfgsswwfltlz;
-
+wqqzasdffgdgslightembe_box_modalpssswwfltl.oncontextmenu=function(){ return true; this.preventDefault(); };  wqqzasdffgdgslightembe_box_modalpssswwfltl.onselectstart=function(){ return true; };  wqqzasdffgdgslightembe_box_modalpssswwfltl.ondragstart=function(){ return false; };  
+ 

@@ -8,7 +8,7 @@ function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='d
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
 
-function add_fileset(d,m,bb,nn) {  var d=d;   d=d+'<li><a style="display:none;" href="'+m+'">'+si_thud("<img src=\""+bb+" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }    
+function add_fileset(d,m,bb,nn) {  var d=d;   d=d+'<li><a style="display:none;" href="'+m+'">'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }    
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

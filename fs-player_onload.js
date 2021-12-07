@@ -1,8 +1,7 @@
 function loadJS(src, then) {
   var script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');
-  script.src = src;
-  script.onload = then;
+  script.src = src;  script.onload = then;
   document.body.appendChild(script);
 }
 

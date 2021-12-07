@@ -34,110 +34,18 @@
 <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="https://fcasfs-of.github.io/Player/fav_icon.png"/>
 
   <link rel="stylesheet" href="https://fcasfs-of.github.io/Player/fs-post.css"/>
+<link rel="stylesheet" href="search-se.css"/>
   
   <script src="https://fcasfs-of.github.io/Player/Server/Files/0-index.js"></script>
-<script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  
-
-var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
-  
-  function fmdplex_loadex_txv(t){  if(t==""){    return "";  }   if(t=="undefined"){    return "";  }     if(t==undefined){    return "";  }   else {  return t; }  }   
-  
-  function searcha(nameKey, myArray, vff){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i][0] == nameKey) {
-            return vff(myArray[i]);
-        }
-    }
-}
-
-  
-  
-  function mspl_search_list(d){   var sdddResultsinput = document.getElementById("Results_search_f");   var search_input, search_filter, list_ul, itens_li, resul_a, itens_id, txt_res_Value;    search_input = document.getElementById("q");    search_filter = search_input.value.toUpperCase();    list_ul = document.getElementById("f_list_filesaaa");    itens_li = list_ul.getElementsByTagName("a");   var lResultiCount = 0;   for (itens_id = 0; itens_id < itens_li.length; itens_id++) {    itens_li[itens_id].style.display = "none";    resul_a = itens_li[itens_id];        txt_res_Value = resul_a.textContent || resul_a.innerText;        if (txt_res_Value.toUpperCase().indexOf(search_filter) > -1 || search_filter=="*.*") {          if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){   itens_li[itens_id].style.display = "none";  }  else{     itens_li[itens_id].style.display = "";   lResultiCount++;    }     } else {            itens_li[itens_id].style.display = "none";        }     }   var liCount_Results=lResultiCount + " Results Found";  if(liCount_Results=="0 Results Found"){  var liCount_Results="No" + " Results Found";    }   if(search_input.value=="" || search_input.value=="undefined" || search_input.value==undefined){  var liCount_Results="";  }   if(search_filter=="*.*") {  if(liCount_Results=="No Results Found"){ var liCount_Results=""; }   }     sdddResultsinput.innerHTML=liCount_Results;   }
-  function mspl_search_clet(d){  var search_input = document.getElementById("q");  search_input.value=""; mspl_search_list(d);   }
-
-  
-
-var adr = {
-search: function(event){
-    event.preventDefault();
-
-     var target = document.getElementById("output");
-
-    var book = server_fs_itens;
-
-    var count = book.length;
-    var searchValue = document.getElementById('q');
-    //var i, isItFound;
-    target.innerHTML = "";
-
-            var vobjd=searcha(searchValue.value, server_fs_itens, function(f){
-              var target = document.getElementById("output");
-target.innerHTML += '<p>' + "" + '<a href="' + f[1] + '">'+ f[0] +'</a></p>'; 
-            });
-
-
-}
-};
-
-
-  </script>
- 
+<script>  document.oncontextmenu=function(){ return false; this.preventDefault(); };  document.onselectstart=function(){ return false; };  document.ondragstart=function(){ return false; };  </script>
+  <script src="search-se.js"></script>
+   
   
 <!-- base href="__features__" -->
 <title>FS Player - Online: Search</title>
 
   <style>
-ul {
-  list-style-type: none;
-  margin: 0;  padding: 0;
-  width: 100%;
-  background-color: #f1f1f1;transition: all 0.1s linear;	
-}
 
-ul li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;transition: all 0.1s linear;	
-}
-
-ul li:hover a:hover {
-  background-color: #555;
-  color: #fff;transition: all 0.1s linear;	
-}
-ul li .fa{
-  font-size:inherit;
-  width: 100px; opacity:0.80;
-  text-align: center;
-  transition: all 0.1s ease;
-  font-size: 36px; margin-right:8px; margin-bottom:6px;  transition: all 0.1s linear;	
-} 
-ul li:hover a:hover .fa {
-  opacity:1;transition: all 0.1s linear;	
-}
-ul li { 
-  //border-bottom: 1px solid #000;  width: 100%;  background-color: #f1f1f1;transition: all 0.1s linear;
-}
-ul li:hover, ul li:last-child {
-   //border-bottom: 0px solid #000;border:none;
-}
-ul li:hover a:before {
-    content: "  >>  "; margin-right:4px; color:#fff;
-}
-    #emb-fs div { width:100%; }     
-
-    
-   input.mdfs_my_val_Input{  /*background: url("");*/  background-position: 10px 12px;  background-repeat: no-repeat;  width: 264px;  font-size: 16px;  padding: 12px 20px 12px 20px;  border: 1px solid #ddd;  margin-bottom: 12px; margin-right:5px; }  input.mdfs_my_val_Input:focus{  border-radius:4px;  width: 72%;  }    
-
-@media screen and (min-width: 480px) {
-  
-  }
-  @media screen and (min-width: 767px) {
-
-  }
-  @media screen and (min-width: 959px) {
-    
-  }
   </style>
   
 </head>
@@ -151,11 +59,8 @@ ul li:hover a:before {
   
   
 
- <script>  
-   var targf_list_filesaaaet = document.getElementById("f_list_filesaaa");  targf_list_filesaaaet.innerHTML=""+targf_ddlist_filesaaaet;
-var targf_list_fidsflesaaaet = document.getElementById("q");  targf_list_fidsflesaaaet.value=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?q=").replace(/\+/g,  " ")));    mspl_search_list();
-var tadrgf_list_fidsflesaaaet = document.getElementById("f_mfdval_Input"); 
-   //tadrgf_list_fidsflesaaaet.onsubmit=function(){location.href="https://fcasfs-of.github.io/Player/Server/search.htm?q="+targf_list_fidsflesaaaet.value;};
+<script src="search-ser.js"></script>
+    <script>  
     </script>
 
 </body>

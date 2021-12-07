@@ -69,7 +69,7 @@ var zsssasd_iswez = ""+"";
 
 
 
-function lks_favvss() {  
+function lks_favvss() {  SelectTdfext("embe-ilss");
 mdpl_ztoogle_dispNav(wqqzasdffgdgslightembe_box_modalpssswwfltl);
 }  
 

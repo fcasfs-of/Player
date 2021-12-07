@@ -646,14 +646,16 @@ volumeBtn.addEventListener('click', toggleMute);
 video.addEventListener('updateMediaState', function(){  mdplprogressgetpl(video,"progress_soj");  });
 
 	
-window.addEventListener("orientationchange", function(event) {
-  var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
-if ( ["landscape-primary","landscape-secondary"].indexOf(orientation)!=-1) {
-toggleFullscreen();
+if ( 'orientation' in screen ){
+	screen.orientation.addEventListener('change', function(){
+		//Let's request fullscreen if user switches device in landscape mode.
+		if ( screen.orientation.type.startsWith('landscape') ){
+			toggleFullscreen();
+		} else if ( document.fullscreenElement ){
+			exitFullscreen();
+		}
+	})
 }
-else if (orientation === undefined) {
-}
-});
 	
 
 kddvideopl.addEventListener('mousedown', () => isMouseDown = true);

@@ -30,4 +30,7 @@ var wqqzasdfsfgsswwfltlz = '<div><pre class="code wp-block-code code-html" style
  
 var wqqzasdffgdgslightembe_box_modalpssswwfltl = document.getElementById('lightembe_box_modal');   wqqzasdffgdgslightembe_box_modalpssswwfltl.style.display="none";   wqqzasdffgdgslightembe_box_modalpssswwfltl.innerHTML=wqqzasdfsfgsswwfltlz;
 wqqzasdffgdgslightembe_box_modalpssswwfltl.oncontextmenu=function(){return true;this.preventDefault();};  wqqzasdffgdgslightembe_box_modalpssswwfltl.onselectstart=function(){return true;};  wqqzasdffgdgslightembe_box_modalpssswwfltl.ondragstart=function(){return false;};  
- 
+wqqzasdffgdgslightembe_box_modalpssswwfltl.addEventListener('selectstart', function(){return true;});
+wqqzasdffgdgslightembe_box_modalpssswwfltl.addEventListener('contextmenu', function(){return true;this.preventDefault();});
+wqqzasdffgdgslightembe_box_modalpssswwfltl.addEventListener('dragstart', function(){return false;});
+

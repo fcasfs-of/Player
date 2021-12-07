@@ -1,8 +1,8 @@
 function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }
 function truncgate(input) {   return truncateWithEllipses(input, 100);}
 
-function si_thud(input) {   var si_thudsss="<span class='fa' style='display:none;'></span>";  
-  if(loacol_thum=="true"){ var si_thudsss=input; }   return si_thudsss;  }
+function si_thud(input) {   var si_thudsss="<img class='fa' style='display:none;'/>";  
+  if(loacol_thum=="true"){ si_thudsss=input; }   return si_thudsss;  }
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

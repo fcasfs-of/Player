@@ -69,4 +69,11 @@ var zsssasd_iswez = ""+"";
 
 
 
+function lks_favvss() {  
+
+}  
+
+
+
+
 

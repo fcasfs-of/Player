@@ -2,7 +2,7 @@ function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.
 function truncgate(input) {   return truncateWithEllipses(input, 100);}
 
 function si_thud(zz,input) {  var si_thudsss="";  //var loacol_thum= true;
-  if(zz==true){ si_thudsss=input; }  else { si_thudsss=""; }  return si_thudsss;  }
+  if(zz==true){ var si_thudsss=input; }  else { var si_thudsss=""; }  return si_thudsss;  }
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

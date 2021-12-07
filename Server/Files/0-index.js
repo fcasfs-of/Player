@@ -2,7 +2,7 @@ function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.
 function truncgate(input) {   return truncateWithEllipses(input, 100);};
 
 
-var loacol9d="https://fcasfs-of.github.io/Player/Server/Files";
+var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";
 var targf_ddlist_filesaaaet = '';
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'<li><a style="display:none;" href="'+loacol9d+"/711600070003432847011811.html"+'"><img src="https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/[MV] Ryukendo_000354.jpg" class="fa"/>'+truncgate("[MV] Ryukendo")+'</a></li>';
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'<li><a style="display:none;" href="'+loacol9d+"/714590675060111840304810.html"+'"><img src="https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Movie - All Songs_000508.jpg" class="fa"/>'+truncgate("Jiban the movie - All Songs")+'</a></li>';

@@ -144,16 +144,16 @@ div.comments::after {
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;  
   margin: 48px auto;
-  width: 60%;//20rem;
+  width: 20rem;
 }
   @media screen and (min-width: 480px) {
-   .blog-containerz { width: 28rem;}
+   .blog-container { width: 28rem;}
   }
   @media screen and (min-width: 767px) {
-    .blog-containerz {width: 40rem;}
+    .blog-container {width: 40rem;}
   }
   @media screen and (min-width: 959px) {
-    .blog-containerz {width: 50rem;}
+    .blog-container {width: 50rem;}
   }
 
 .blog-container a {

@@ -309,7 +309,7 @@ li.comments {
 
 
 .wp-block-code{white-space:pre-wrap;overflow-wrap:break-word;}
-pre {   overflow: auto;}
+pre {  background:#fff; overflow: auto;}
 pre.first::-webkit-scrollbar {   background: #b3bccc;}
 pre.first::-webkit-scrollbar-thumb {   background: #eee;   border-radius: 5px;}
 pre.first {

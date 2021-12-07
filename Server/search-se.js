@@ -1,4 +1,13 @@
 
+
+function truncate(input) {
+   if (input.length > 5) {
+      return input.substring(0, 45) + '...';
+   }
+   return input;
+};
+
+
 var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
   
   function fmdplex_loadex_txv(t){  if(t==""){    return "";  }   if(t=="undefined"){    return "";  }     if(t==undefined){    return "";  }   else {  return t; }  }   

@@ -2,7 +2,7 @@
     var loacol_thum = "true";   
 
 function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }    
-function truncgate(input) {   return truncateWithEllipses(input, 100);}  
+function truncgate(input) {   return truncateWithEllipses(input, 100);   }  
 
 function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='display:none;'/>";     
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    

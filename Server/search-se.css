@@ -35,7 +35,7 @@ ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
 ul li:hover a:before {
-    content: url('video-thumb-placeholder-16-9.png');/*"  >>  ";*/ 
+    content: url('video-thumb-placeholder-16-9.png'); width:32px;height:32px;/*"  >>  ";*/ 
   margin-right:4px; color:#fff;  
 }
     #emb-fs div { width:100%; }     

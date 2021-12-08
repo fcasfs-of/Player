@@ -610,8 +610,8 @@ function closeDragElement() {
 
 	kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
 kddvarbararvideopl.addEventListener("mousemove", geltttmecurrent);  
-kddvarbararvideopl.addEventListener("mousedown", function(){document.onmouseup = closeDragElement;
-    document.onmousemove = geltttmecurrent;});
+kddvarbararvideopl.addEventListener("mousedown", function(){document.addEventListener("mouseup", closeDragElement);
+    document.addEventListener("mousemove", geltttmecurrent); });
 //kddvarbararvideopl.addEventListener("mouseup", geltttmecurrent);
 
 

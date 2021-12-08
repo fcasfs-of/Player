@@ -35,8 +35,8 @@ ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
 ul li:hover a:before {
-    content: "  "; background: url('play.png'); /*"  >>  ";*/ 
-  margin-right:4px; color:#fff;  width:10px;height:20px; background-size: 10px 20px;   
+    content: "  "+url('play.png'); /*"  >>  ";*/ 
+  margin-right:4px; color:#fff;  width:18px;height:18px;   
 }
 
 

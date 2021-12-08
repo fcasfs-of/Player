@@ -64,7 +64,7 @@ ul li.tx:hover a:before {    transition: all 0.1s linear;
     content: "  ";  padding:3px;  background: url('img/text-box.png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
-ul li.vid:hover .bt:hover a:after {    transition: all 0.1s linear;
+ul li.vid .bt:hover a:after {    transition: all 0.1s linear;
     content: "  ";  padding:3px;  background: url('img/play(2).png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }

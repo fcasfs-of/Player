@@ -514,6 +514,27 @@ var isMousekk = true;    var timeout;   var isHidden = false;
 
 
 
+function zadjustVolume(e) {
+  if (e.type === 'mousemove' && !isMouseDown) return;
+  if (e.which === 1 ) return video.volume = volumeSlider.value / 100;
+
+  e.preventDefault();
+  if (e.key === 'ArrowUp' || e.wheelDelta > 0) {
+      video.volume = video.volume + .1 >= 1 ? 1 : video.volume + .1;
+      volumeSlider.value = video.volume * 100;
+      return;
+  }
+  if (e.key === 'ArrowDown' || e.wheelDelta < 0) {
+      video.volume = video.volume - .1 <= 0 ? 0 : video.volume - .1;
+      volumeSlider.value = video.volume * 100;
+      return;
+  }
+
+  video.volume = volumeSlider.value / 100;  
+}
+
+
+
 function mdplprogressgetpl(v,n){ var myBarfilemediasewwwe = v;  var myBarbtbasewwwe = document.getElementById(n);   var bufferedEndw = myBarfilemediasewwwe.buffered.end(myBarfilemediasewwwe.buffered.length - 1);      var durationwee =  myBarfilemediasewwwe.duration;     var loadd_brere=0;    if (durationwee > 0) {   var loadd_brere=bufferedEndw/durationwee*100;       if(loadd_brere > 99){  var loadd_breresdsww=100;      }  else {  var loadd_breresdsww=loadd_brere;     }    myBarbtbasewwwe.style.width = loadd_breresdsww + "%";   }   myBarbtbasewwwe.style.width = loadd_breresdsww + "%";  }  
 
 
@@ -608,7 +629,12 @@ function closeDragElement(e) {
     document.onmousemove = null;
 }
 
-	kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
+
+kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
+kvolldsisaiopl.addEventListener("mousedown", zzgdddeltttmecurrent);
+kvolldsisaiopl.addEventListener("touchmove", zzgdddeltttmecurrent);
+kvolldsisaiopl.addEventListener("wheel", function(e){});
+
 kddvarbararvideopl.addEventListener("mousemove", geltttmecurrent);  
 /*kddvarbararvideopl.addEventListener("mousedown", function(e){document.addEventListener("mouseup", closeDragElement);    document.addEventListener("mousemove", geltttmecurrent); });*/
 kddvarbararvideopl.addEventListener("mousedown", geltttmecurrent);

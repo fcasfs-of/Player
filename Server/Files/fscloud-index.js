@@ -8,7 +8,7 @@ function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='d
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
 function si_thudicon(inputz) {       var zsi_thudsss="fl";     
-  if(loacol_thum=="video"){ zsi_thudsss="vid"; }     return zsi_thudsss;   }    
+  if(inputz=="video"){ zsi_thudsss="vid"; }     return zsi_thudsss;   }    
 
 
 

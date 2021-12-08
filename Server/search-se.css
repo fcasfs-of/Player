@@ -38,7 +38,9 @@ ul li:hover a:before {
     content: "  "; background: url('play.png'); /*"  >>  ";*/ 
   margin-right:4px; color:#fff;  width:10px;height:20px; background-size: 10px 20px;   
 }
-    #emb-fs div { width:100%; }     
+
+
+ #emb-fs div { width:100%; }       
 
     
    input.mdfs_my_val_Input{  /*background: url("");*/  background-position: 10px 12px;  background-repeat: no-repeat;  width: 264px;  font-size: 16px;  padding: 12px 20px 12px 20px;  border: 1px solid #ddd;  margin-bottom: 12px; margin-right:5px; transition: all 0.1s linear;}  input.mdfs_my_val_Input:focus{  border-radius:4px;  width: 72%;  transition: all 0.1s linear;}    

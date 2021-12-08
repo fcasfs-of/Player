@@ -48,6 +48,18 @@ ul li.fl:hover a:before {  transition: all 0.1s linear;
     content: "  >>  "; position:relative;  padding:2px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
+ul li.doc:hover a:before {    transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('img/documents.png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
+}
+ul li.musi:hover a:before {    transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('img/headphone.png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
+}
+ul li.pic:hover a:before {    transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('img/picture.png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
+}
 
 
 

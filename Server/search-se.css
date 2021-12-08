@@ -25,7 +25,7 @@ ul li .fa{
   transition: all 0.1s ease;
   font-size: 36px; margin-right:8px; margin-bottom:6px;  transition: all 0.1s linear;	
 } 
-ul li .fa::after{
+ul li .fa::after{  
   content:url('video-thumb-placeholder-16-9.png');   
 }
 ul li:hover a:hover .fa {

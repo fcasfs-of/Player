@@ -35,7 +35,7 @@ ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
 ul li:hover a:before {
-    content: url('play(1).png');
+    content: url('play(1).png');  position:absolute;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
 ul li.fl:hover a:before {

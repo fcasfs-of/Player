@@ -8,14 +8,14 @@ function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='d
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
 function si_thudicon(zzz, inputz, inddputz) {   var zsi_tddddfdfdhudsss="";    var zsi_tdfdfdhudsss="";    var zsid_fdtdfdfdhudsss="";  var zsi_thudsss="fl";     
-    if(inputz=="fil"){  zsid_fdtdfdfdhudsss="data-title='File'";  }   if(inputz=="text"){ zsi_thudsss="tx";  zsid_fdtdfdfdhudsss="data-title='Text'";  }   if(inputz=="photo"){ zsi_thudsss="pic";  zsid_fdtdfdfdhudsss="data-title='Photo'";  }  if(inputz=="document"){ zsi_thudsss="doc";   zsid_fdtdfdfdhudsss="data-title='Document'";  }  if(inputz=="music"){ zsi_thudsss="musi";  zsid_fdtdfdfdhudsss="data-title='Áudio'";    if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }  if(inputz=="video"){ zsi_thudsss="vid";  zsid_fdtdfdfdhudsss="data-title='Video'";    if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }   if(inputz=="play"){ zsi_thudsss="vf"; } 
-if(zzz==true){  if(zsid_fdtdfdfdhudsss==""){  }  else  {zsi_tddddfdfdhudsss="tooxltips";  }  }  
+    if(inputz=="fil"){  zsid_fdtdfdfdhudsss="'File'";  }   if(inputz=="text"){ zsi_thudsss="tx";  zsid_fdtdfdfdhudsss="'Text'";  }   if(inputz=="photo"){ zsi_thudsss="pic";  zsid_fdtdfdfdhudsss="'Photo'";  }  if(inputz=="document"){ zsi_thudsss="doc";   zsid_fdtdfdfdhudsss="'Document'";  }  if(inputz=="music"){ zsi_thudsss="musi";  zsid_fdtdfdfdhudsss="'Áudio'";    if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }  if(inputz=="video"){ zsi_thudsss="vid";  zsid_fdtdfdfdhudsss="'Video'";    if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }   if(inputz=="play"){ zsi_thudsss="vf"; } 
+if(zzz==true){  if(zsid_fdtdfdfdhudsss==""){  }  else  {zsi_tddddfdfdhudsss="data-title=";  }  }  
 return { ty:{c:zsi_tddddfdfdhudsss,t:""+zsid_fdtdfdfdhudsss}, ic: ""+zsi_thudsss+zsi_tdfdfdhudsss};   }    
 
 
 
 function add_fileset(zz,nm,aaa,m,bb,nn) {   var add_filesetsss=si_thudicon(aaa,zz,nm);      
-    return '<li class="'+add_filesetsss.ic+'"><a class="'+add_filesetsss.ty.c+'" style="display:none;" href="'+m+'" '+add_filesetsss.ty.t+'>'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }       
+    return '<li class="'+add_filesetsss.ic+'"><a class="'+'" style="display:none;" href="'+m+'" '+add_filesetsss.ty.c+add_filesetsss.ty.t+'>'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }       
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

@@ -36,8 +36,12 @@ ul li:hover, ul li:last-child {
 }
 
 
-ul li.vid:hover a:before {    transition: all 0.1s linear;
-    content: "  ";  padding:3px;  background: url('play(2).png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
+ul li.vf:hover a:before {    transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('img/play(2).png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
+}
+ul li.video:hover a:before {    transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('img/movie.png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
 ul li.fl:hover a:before {  transition: all 0.1s linear;

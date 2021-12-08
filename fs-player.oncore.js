@@ -1,5 +1,5 @@
 
-/* app-vidplayer */    
+/* app-vidplayer */       
 
 var fs_trans_osvendors = [ '-webkit-', '-o-', '-moz-', '-ms-', '' ];    
 var fs_trans_osprefix = [ "", "o", "ms", "moz", "khtml", "webkit" ];   

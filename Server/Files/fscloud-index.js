@@ -14,7 +14,7 @@ return { ty:{c:zsi_tddddfdfdhudsss,t:""+zsid_fdtdfdfdhudsss}, ic: ""+zsi_thudsss
 
 
 
-function add_fileset(zz,nm,aaa,m,bb,nn) {   var add_filesetsss=si_thudicon(aaa,zz,nm);     
+function add_fileset(zz,nm,aaa,m,bb,nn) {   var add_filesetsss=si_thudicon(aaa,zz,nm);      
     return '<li class="'+add_filesetsss.ic+'"><a class="'+add_filesetsss.ty.c+'" style="display:none;" href="'+m+'" '+add_filesetsss.ty.t+'>'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }       
 
 

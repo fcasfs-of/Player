@@ -39,7 +39,7 @@ ul li:hover a:before {
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
 ul li.fl:hover a:before {
-    content: "  >>  "; 
+    content: "  >>  ";      
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
 

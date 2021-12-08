@@ -603,16 +603,16 @@ function m_Mouse() {    pl_dispNav("plvideo").style.cursor = "auto";  pl_dispNav
 
 
 
-function closeDragElement() {
+function closeDragElement(e) {
     document.onmouseup = null;
     document.onmousemove = null;
 }
 
 	kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
 kddvarbararvideopl.addEventListener("mousemove", geltttmecurrent);  
-kddvarbararvideopl.addEventListener("mousedown", function(){document.addEventListener("mouseup", closeDragElement);
+kddvarbararvideopl.addEventListener("mousedown", function(e){document.addEventListener("mouseup", closeDragElement);
     document.addEventListener("mousemove", geltttmecurrent); });
-//kddvarbararvideopl.addEventListener("mouseup", geltttmecurrent);
+kddvarbararvideopl.addEventListener("mousedown", geltttmecurrent);
 
 
 z_setid_even_lit(video, "abort", function(){}); z_setid_even_lit(video, "error", function(){}); z_setid_even_lit(video, "play", function(){updatePlayButton();  toggleds();fdpl_showl_pld(false);}); z_setid_even_lit(video, "pause", function(){updatePlayButton();  toggleds();}); z_setid_even_lit(video, "playing", function(){fdpl_showiddl_pld('loadedp',false);mdplprogressgetpl(video,"progress_soj");}); z_setid_even_lit(video, "waiting", function(){fdpl_showiddl_pld('loadedp',true);}); z_setid_even_lit(video, "ended", function(){ var loadd_rte=video.playbackRate;update_all();fdpl_showl_pld(true);video.load();  video.playbackRate=loadd_rte; });

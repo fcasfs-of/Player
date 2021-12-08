@@ -34,11 +34,11 @@ ul li { overflow: auto;
 ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
-ul li a:before {   display:none;  transition: all 0.1s linear;
-    content: "  ";  padding:3px;  background: url('play(2).png'); background-repeat: no-repeat;   position:absolute; width:16px;height:16px;
+ul li.vid a:before {   display:none;  transition: all 0.1s linear;
+    content: "  ";  padding:3px;  background: url('play(2).png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
-ul li:hover a:before {   display:block;  transition: all 0.1s linear;  }
+ul li.vid:hover a:before {   display:block;  transition: all 0.1s linear;  }
 ul li.fl a:before {  display:none; transition: all 0.1s linear;
     content: "  >>  ";   padding:2px;   
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   

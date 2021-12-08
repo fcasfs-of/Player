@@ -34,14 +34,16 @@ ul li { overflow: auto;
 ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
-ul li:hover a:before {   transition: all 0.1s linear;
+ul li a:before {   display:none;  transition: all 0.1s linear;
     content: "  "; background: url('play(2).png'); background-repeat: no-repeat;   position:absolute; width:16px;height:16px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
-ul li.fl:hover a:before {  transition: all 0.1s linear;
+ul li:hover a:before {   display:block;  transition: all 0.1s linear;  }
+ul li.fl a:before {  display:none; transition: all 0.1s linear;
     content: "  >>  ";      
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
+ul li.fl:hover a:before {  display:block;  transition: all 0.1s linear;  }
 
 
  #emb-fs div { width:100%; }       

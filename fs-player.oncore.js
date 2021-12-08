@@ -652,6 +652,7 @@ function closeDragElement(e) {
 kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("mousedown", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("touchmove", zzgdddeltttmecurrent);
+kvolldsisaiopl.addEventListener("touchstart", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("wheel", function(e){});
 kvolldsisaiopl.addEventListener("pointerdown", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("pointermove", zzgdddeltttmecurrent);
@@ -659,7 +660,7 @@ kvolldsisaiopl.addEventListener("pointermove", zzgdddeltttmecurrent);
 kddvarbararvideopl.addEventListener("mousemove", geltttmecurrent);  
 /*kddvarbararvideopl.addEventListener("mousedown", function(e){document.addEventListener("mouseup", closeDragElement);    document.addEventListener("mousemove", geltttmecurrent); });*/
 kddvarbararvideopl.addEventListener("mousedown", geltttmecurrent);
-kddvarbararvideopl.addEventListener("touchstart", function(e){});
+kddvarbararvideopl.addEventListener("touchstart", geltttmecurrent);
 kddvarbararvideopl.addEventListener("touchend", function(e){});
 kddvarbararvideopl.addEventListener("touchcancel", function(e){});
 kddvarbararvideopl.addEventListener("touchmove", geltttmecurrent);

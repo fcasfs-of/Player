@@ -15,6 +15,24 @@ function fs_url_int_bb(ssz){   var zzbslob = ssz;   return ""+zzbslob+"";   }
 
 
 
+function detectInputType(event) {
+    switch(event.pointerType) {
+        case "mouse":
+            /* mouse input detected */
+            break;
+        case "pen":
+            /* pen/stylus input detected */
+            break;
+        case "touch":
+            /* touch input detected */
+            break;
+        default:
+            /* pointerType is empty (could not be detected)
+            or UA-specific custom type */
+    }
+}
+
+
 /*function getActiveTimeRange(range, time) {    var len = range.length;    var index = -1;    var start = 0;    var end = 0;    for (var i = 0; i < len; i++) {        if (time >= (start = range.start(i)) && time <= (end = range.end(i))) {            index = i;            break;        }    }    return [index, start, end];   };*/
  
 function mdpl_fs_call(s){   document.write(s);   }
@@ -634,6 +652,8 @@ kvolldsisaiopl.addEventListener("mousemove", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("mousedown", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("touchmove", zzgdddeltttmecurrent);
 kvolldsisaiopl.addEventListener("wheel", function(e){});
+kvolldsisaiopl.addEventListener("pointerdown", zzgdddeltttmecurrent);
+kvolldsisaiopl.addEventListener("pointermove", zzgdddeltttmecurrent);
 
 kddvarbararvideopl.addEventListener("mousemove", geltttmecurrent);  
 /*kddvarbararvideopl.addEventListener("mousedown", function(e){document.addEventListener("mouseup", closeDragElement);    document.addEventListener("mousemove", geltttmecurrent); });*/
@@ -642,6 +662,8 @@ kddvarbararvideopl.addEventListener("touchstart", function(e){});
 kddvarbararvideopl.addEventListener("touchend", function(e){});
 kddvarbararvideopl.addEventListener("touchcancel", function(e){});
 kddvarbararvideopl.addEventListener("touchmove", geltttmecurrent);
+kddvarbararvideopl.addEventListener("pointerdown", geltttmecurrent);
+kddvarbararvideopl.addEventListener("pointermove", geltttmecurrent);
 
 
 z_setid_even_lit(video, "abort", function(){}); z_setid_even_lit(video, "error", function(){}); z_setid_even_lit(video, "play", function(){updatePlayButton();  toggleds();fdpl_showl_pld(false);}); z_setid_even_lit(video, "pause", function(){updatePlayButton();  toggleds();}); z_setid_even_lit(video, "playing", function(){fdpl_showiddl_pld('loadedp',false);mdplprogressgetpl(video,"progress_soj");}); z_setid_even_lit(video, "waiting", function(){fdpl_showiddl_pld('loadedp',true);}); z_setid_even_lit(video, "ended", function(){ var loadd_rte=video.playbackRate;update_all();fdpl_showl_pld(true);video.load();  video.playbackRate=loadd_rte; });

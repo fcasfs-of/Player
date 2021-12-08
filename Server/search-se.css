@@ -35,6 +35,7 @@ ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
 
+
 ul li.vid a:before {   display:none;  transition: all 0.1s linear;
     content: "  ";  padding:3px;  background: url('play(2).png'); background-repeat: no-repeat;   position:absolute; width:18px;height:18px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
@@ -45,6 +46,7 @@ ul li.fl:hover a:before {  transition: all 0.1s linear;
     content: "  >>  "; padding:2px;position:relative;  
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
+
 
 
     #emb-fs div { width:100%; }            

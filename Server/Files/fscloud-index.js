@@ -11,6 +11,7 @@ function si_thudicon(inputz) {       var zsi_thudsss="fl";
   if(loacol_thum=="video"){ zsi_thudsss="vid"; }     return zsi_thudsss;   }    
 
 
+
 function add_fileset(zz,m,bb,nn) {   return '<li class="'+si_thudicon(zz)+'"><a style="display:none;" href="'+m+'">'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }       
 
 

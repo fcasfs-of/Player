@@ -693,8 +693,13 @@ player.addEventListener('mousemove', m_Mouse);
 player.addEventListener('mousemove', function(){    m_Mouse();      pl_dispNav('contols_pls').style.bottom="0px";   ap_lidsfdddpssad9900ds_isetupsar.style.display="block";     var isHidden = false; });
 video.addEventListener('mousemove', function(){   pl_dispNav("plvideo").style.cursor = "auto";  fdpl_showiddl_pld('title-vidpl',fdpl_val(config_app_pl_titledisplay));   pl_dispNav('contols_pls').style.bottom="0px";    ap_lidsfdddpssad9900ds_isetupsar.style.display="block";    var isHidden = false; });
 player.addEventListener('mouseout', function(){fdpl_showiddl_pld('title-vidpl',false);  });    player.addEventListener('mouseover', function(){fdpl_showiddl_pld('title-vidpl',fdpl_val(config_app_pl_titledisplay));  });
-/*player.addEventListener('mouseleave', function(){});*/
+player.addEventListener('mouseleave', function(){});
 videopl.addEventListener('click', function(){video.play();});  videopl.addEventListener("dblclick", function(){toggleFullscreen();});
+videopl.addEventListener('auxclick', function(e) {
+  if (e.button == 1) {
+ 
+  }
+})
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', function(){   animatePlayback();  togglePlay();  animatePlayback();   });
 video.addEventListener('play', togglePlayBtn);
@@ -718,7 +723,7 @@ window.screen.orientation.addEventListener('change', function(){
 
 kddvideopl.addEventListener('mousedown', () => isMouseDown = true);
 kddvideopl.addEventListener('mouseup', () => isMouseDown = false);
-/* volumeSlider.addEventListener('mouseover', changezVolume);*/
+volumeSlider.addEventListener('mouseover', function(){});
 volumeSlider.addEventListener('click', changezVolume);
 progressSlider.addEventListener('click', setProgress);   progressSlider.addEventListener('dblclick', function(){video.play();});
 fullscreenBtn.addEventListener('click', toggleFullscreen);

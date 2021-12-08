@@ -1,5 +1,5 @@
 
-    var loacol_thum = "true";               
+    var loacol_thum = "true";           
 
 function truncateWithEllipses(text, max) {    return text.substr(0,max-1)+(text.length>max?'&hellip;':''); }       
 function truncgate(input) {   return truncateWithEllipses(input, 100);   }  

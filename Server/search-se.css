@@ -190,3 +190,54 @@ border-right: 6px solid transparent;
 
 
 
+
+*[data-title]{
+				position:		relative;
+			}
+			
+			*[data-title]::before{
+				display:		none;
+				position:		absolute;
+				content:		'';
+				width:			0px;
+				height:			0px;
+			}
+			
+			*[data-title]::after{
+				display:		none;
+				position:		absolute;
+				content:		attr(data-title);
+				padding:		0px8px;
+				background:		rgba(0,0,0,0.8);
+				border-radius:	5px;
+				color:			#fff;
+				font-size:		10px;
+				line-height:	24px;
+				white-space:	nowrap;
+				letter-spacing:	0.1em;
+				text-rendering:	optimizeLegibility;
+			}
+			
+			*[data-title]:hover::before,*[data-title]:hover::after{
+				display:		block;
+			}
+			
+			*[data-title-direction="right"]::before{
+				top:			50%;
+				margin-top:		-5px;
+				left:			calc(100%+5px);
+				border:			5pxsolidtransparent;
+				border-right:	solid5pxrgba(0,0,0,0.8);
+				border-left:	none;
+			}
+			
+			*[data-title-direction="right"]::after{
+				top:			50%;
+				left:			calc(100%+10px);
+				margin-top:		-12px;
+			}
+
+
+
+
+

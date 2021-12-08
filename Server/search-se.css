@@ -35,10 +35,13 @@ ul li:hover, ul li:last-child {
    //border-bottom: 0px solid #000;border:none;
 }
 ul li:hover a:before {
-    content: "  "+url('play.png'); /*"  >>  ";*/ 
-  margin-right:4px; color:#fff;  width:18px;height:18px;   
+    content: url('play(1).png'); /*"  >>  ";*/ 
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
-
+ul li.fl:hover a:before {
+    content: "  >>  "; 
+  margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
+}
 
  #emb-fs div { width:100%; }       
 

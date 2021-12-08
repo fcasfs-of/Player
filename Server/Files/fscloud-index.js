@@ -15,7 +15,7 @@ return { ty:{c:zsi_tddddfdfdhudsss,t:""+zsid_fdtdfdfdhudsss}, ic: ""+zsi_thudsss
 
 
 function add_fileset(zz,nm,aaa,m,bb,nn) {   var add_filesetsss=si_thudicon(aaa,zz,nm);      
-    return '<li class="'+add_filesetsss.ic+'"><a class="'+'" style="display:none;" href="'+m+'" '+add_filesetsss.ty.c+add_filesetsss.ty.t+'>'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+truncgate(nn)+'</a></li>';    }       
+    return '<li class="'+add_filesetsss.ic+'"><a class="'+'" style="display:none;" href="'+m+'">'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+'<span '+add_filesetsss.ty.c+add_filesetsss.ty.t+'>'+truncgate(nn)+'</span></a></li>';    }       
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

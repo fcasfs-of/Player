@@ -8,7 +8,7 @@ function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='d
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
 function si_thudicon(inputz) {       var zsi_thudsss="fl";     
-  if(inputz=="video"){ zsi_thudsss="vid"; }   if(inputz=="play"){ zsi_thudsss="vf"; }      return zsi_thudsss;   }    
+    if(inputz=="text"){ zsi_thudsss="tx"; }   if(inputz=="photo"){ zsi_thudsss="pic"; }  if(inputz=="document"){ zsi_thudsss="doc"; }  if(inputz=="music"){ zsi_thudsss="musi"; }  if(inputz=="video"){ zsi_thudsss="vid"; }   if(inputz=="play"){ zsi_thudsss="vf"; }      return zsi_thudsss;   }    
 
 
 

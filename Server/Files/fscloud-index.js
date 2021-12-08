@@ -7,8 +7,8 @@ function truncgate(input) {   return truncateWithEllipses(input, 100);   }
 function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='display:none;'/>";     
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
-function si_thudicon(inputz) {       var zsi_thudsss="fl";     
-    if(inputz=="text"){ zsi_thudsss="tx"; }   if(inputz=="photo"){ zsi_thudsss="pic"; }  if(inputz=="document"){ zsi_thudsss="doc"; }  if(inputz=="music"){ zsi_thudsss="musi"; }  if(inputz=="video"){ zsi_thudsss="vid"; }   if(inputz=="play"){ zsi_thudsss="vf"; }      return zsi_thudsss;   }    
+function si_thudicon(inputz, inddputz) {    var zsi_tdfdfdhudsss="";   var zsi_thudsss="fl";   
+    if(inputz=="text"){ zsi_thudsss="tx"; }   if(inputz=="photo"){ zsi_thudsss="pic"; }  if(inputz=="document"){ zsi_thudsss="doc"; }  if(inputz=="music"){ zsi_thudsss="musi";   if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }  if(inputz=="video"){ zsi_thudsss="vid";    if(inddputz==true){ zsi_tdfdfdhudsss=" bt"; }  }   if(inputz=="play"){ zsi_thudsss="vf"; }      return zsi_thudsss+zsi_tdfdfdhudsss;   }    
 
 
 

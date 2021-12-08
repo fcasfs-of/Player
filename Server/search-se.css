@@ -39,11 +39,10 @@ ul li.vid a:before {   display:none;  transition: all 0.1s linear;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
 ul li.vid:hover a:before {   display:block;  transition: all 0.1s linear;  }
-ul li.fl a:before {  display:none; transition: all 0.1s linear;
+ul li.fl:hover a:before {  transition: all 0.1s linear;
     content: "  >>  ";   padding:2px;   
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   
 }
-ul li.fl:hover a:before {  display:block;  transition: all 0.1s linear;  }
 
 
     #emb-fs div { width:100%; }            

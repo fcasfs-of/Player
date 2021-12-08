@@ -78,7 +78,7 @@ ul li.bt:hover a:after {    transition: all 0.1s linear;
 
 
 
-ul li a.tooxltips {
+.tooxltips {
   text-decoration: none;
   color: #000;
   font-family: "Roboto";
@@ -89,7 +89,7 @@ ul li a.tooxltips {
   background-color: #FFF;
   position: relative; transition: all .1s ease;
 }
-ul li a.tooxltips:before {
+.tooxltips:before {
   content: attr(data-title);
   background-color: #000;
   color: #FFF;
@@ -104,7 +104,7 @@ ul li a.tooxltips:before {
   opacity: 0;
    transition: all .1s ease;
 }
-ul li a.tooxltips:after {
+.tooxltips:after {
   content: "";
   position: absolute;
   opacity: 0;
@@ -117,8 +117,8 @@ ul li a.tooxltips:after {
   border-color: transparent transparent #000 transparent;
   transition: all .1s ease;
 }
-ul li a.tooxltips:hover:after,
-ul li a.tooxltips:hover:before {
+.tooxltips:hover:after,
+.tooxltips:hover:before {
   opacity: 1; transition: all .1s ease;
 }
 

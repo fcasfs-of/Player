@@ -5,8 +5,6 @@ create:function(tt,tug,rr,ti,de,tg,zl){fs_lightbiddrame.innerHTML='<div class="b
 };
 }
 
-fs_addpost_fl("pl-freeoif").create("contx-io","plugins_fs","oi-info","titl-io","des-oi","tags-oi","list_od");    
-
 
 
 Reproduce_aLink(zsssasd_iswe,"zpreviewdemovideinz");

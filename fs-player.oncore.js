@@ -57,7 +57,7 @@ var app_mdpl_dsiniPlayer_i = {};   var app_mdpl_dsiniPlayer_ix = {};      var ap
 
 var sd_pludsy_infe =  "";   var config_app_pl_plalist_autoplay=false; 
 var fs_app_ids_mdpl={};     /*var config_app_pl_covertid;*/      
-
+var pl_ontuid=";codecs=";
 
 function f_uusddsadex_txvadxv(z,n){  var dfdfmdpdsadex_txvadxvss=fmdplex_loadex_txv(z);  if(ds==""){ var dfdfmdpdsadex_txvadxvss=n;  }  return dfdfmdpdsadex_txvadxvss;   }   
 

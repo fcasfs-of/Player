@@ -21,13 +21,17 @@ function add_fileset(zz,nm,aaa,m,bb,nn) {   var add_filesetsss=si_thudicon(aaa,z
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";
 var targf_ddlist_filesaaaet = '';
 
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/711600070003432847011811.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/[MV] Ryukendo_000354.jpg","[MV] Ryukendo");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/714590675060111840304810.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Movie - All Songs_000508.jpg","Jiban the movie - All Songs");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/411400070043002847020800.html","https://archive.org/download/tokusatsu-compilation-musics-all/tokusatsu-compilation-musics-all.thumbs/Tokusatsu - Compilation Musics_000164.jpg","Tokusatsu - Compilation Musics");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/714590675060132807324890.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Kidou Keiji Jiban - Hit Song Collection_000027.jpg","Kidou Keiji Jiban - Hit Song Collection");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/714590675060132805020894.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Kamen Rider BLACK RX - Full Songs_002036.jpg","Kamen Rider BLACK RX - Full Songs");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/711678979903432040410011.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Space_Sheriff_Memorial - PV_000267.jpg","Space_Sheriff_Memorial - PV");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/712690675063432847324893.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Sekai Ninja Sen Jiraiya - Full Songs_000294.jpg","Sekai Ninja Sen Jiraiya - Full Songs");
+
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/711600070003432847011811.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/[MV] Ryukendo_000354.jpg","[MV] Ryukendo");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/714590675060111840304810.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Movie - All Songs_000508.jpg","Jiban the movie - All Songs");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/411400070043002847020800.html","https://archive.org/download/tokusatsu-compilation-musics-all/tokusatsu-compilation-musics-all.thumbs/Tokusatsu - Compilation Musics_000164.jpg","Tokusatsu - Compilation Musics");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/714590675060132807324890.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Kidou Keiji Jiban - Hit Song Collection_000027.jpg","Kidou Keiji Jiban - Hit Song Collection");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/714590675060132805020894.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Kamen Rider BLACK RX - Full Songs_002036.jpg","Kamen Rider BLACK RX - Full Songs");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/711678979903432040410011.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Space_Sheriff_Memorial - PV_000267.jpg","Space_Sheriff_Memorial - PV");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/712690675063432847324893.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Sekai Ninja Sen Jiraiya - Full Songs_000294.jpg","Sekai Ninja Sen Jiraiya - Full Songs");
+
+
+
 
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'';
 

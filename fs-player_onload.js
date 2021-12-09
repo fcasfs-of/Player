@@ -55,9 +55,9 @@ function download_video_setdd(d, v) {   var doddwnload_video_setdd=neaddtTime(v.
 }
 
 
-function do_vieimad_vietdd(dg) {     
+function do_vieimad_vietdd(dg, nmm) {     
  var ex_loadefgdx_downnd=document.getElementById(dg);      var ex_loadex_downnd=ex_loadefgdx_downnd.getAttribute("src");  if(ex_loadex_downnd==""){   }  else {  
-box_in_set("false","light_box_modal","box_btns","image",ex_loadex_downnd,"","", 0, 0, 1);
+ lightbox_inner("false","light_box_modal" { type: "image", lightbox:'true', caption: "", mute:'false', controls:'true', autoplay:'false', loop:'true', volume:0, currentTime:0, playbackRate:1, poster: "" }, { caption:{ enable:true }, thumbs:{ enable:true }}, { thumbs:{ id:nmm }, caption:{ id: ex_loadex_downnd }});  
  }  }
   
   

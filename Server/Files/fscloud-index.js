@@ -33,6 +33,9 @@ targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,lo
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/712690675063432847324893.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Sekai Ninja Sen Jiraiya - Full Songs_000294.jpg","Sekai Ninja Sen Jiraiya - Full Songs");
 
 
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("audio",true,true,loacol9d+"/audio/711000175000102800114110.html","https://archive.org/download/music-5897979979797/music%20-%20%285%29.png","Space Squad: Gavan vs Dekaranger - music 02");
+
+
 
 
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'';

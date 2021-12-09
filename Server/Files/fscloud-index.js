@@ -22,6 +22,8 @@ var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";
 var targf_ddlist_filesaaaet = '';
 
 
+
+
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/711600070003432847011811.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/[MV] Ryukendo_000354.jpg","[MV] Ryukendo");
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/714590675060111840304810.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Movie - All Songs_000508.jpg","Jiban the movie - All Songs");
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,loacol9d+"/video/411400070043002847020800.html","https://archive.org/download/tokusatsu-compilation-musics-all/tokusatsu-compilation-musics-all.thumbs/Tokusatsu - Compilation Musics_000164.jpg","Tokusatsu - Compilation Musics");

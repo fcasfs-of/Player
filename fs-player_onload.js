@@ -54,6 +54,12 @@ function download_video_setdd(d, v) {   var doddwnload_video_setdd=neaddtTime(v.
 }
 
 
+function do_vieimad_vietdd(dg) {     
+ var ex_loadefgdx_downnd=document.getElementById(dg);      var ex_loadex_downnd=ex_loadefgdx_downnd.getAttribute("src");  if(ex_loadex_downnd==""){   }  else {  
+box_in_set("false","light_box_modal","box_btns","image",ex_loadex_downnd,"","", 0, 0, 1);
+ }
+  
+  
 function GTLink() {  return location.href; }  
 
 

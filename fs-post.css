@@ -17,7 +17,7 @@ h2::after {
   width: 2em;
   height: 0.25em;
   background: #111;
-  margin-top: 0.5em;
+  margin-top: 0.5em;   
 }
 
 div.comments {transition: all 0.1s linear;	

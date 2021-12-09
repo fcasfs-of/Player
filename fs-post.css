@@ -399,19 +399,17 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
-div.gallery {
+#thunng div.gallery {
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;transition: all 0.1s linear;	
 }
-
-div.gallery:hover {
+#thunng div.gallery:hover {
   border: 1px solid #777;transition: all 0.1s linear;	
 }
 
-div.gallery img {
+#thunng div.gallery img {
   width: 100%;transition: all 0.1s linear;	  height: auto;
 }
-
-div.desc {
+#thunng div.desc {
   padding: 15px;transition: all 0.1s linear;  text-align: center;
 }
 

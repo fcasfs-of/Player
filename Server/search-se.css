@@ -89,7 +89,7 @@ ul li:hover a.tip:hover span:before {  transition: all 0.1s linear;
 }
 .tooxltips:before,
 .tooxltips:after {
-  display: block;
+  display: block;   
   opacity: 0;
   pointer-events: none;
   position: absolute;

@@ -69,7 +69,7 @@ ul li.bt:hover a:after {    transition: all 0.1s linear;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;  right:6px; 
 }
 ul li:hover a.tip:hover span:after {  transition: all 0.1s linear;
-    content: attr(data-title); position:absolute;  padding:2px;
+    content: attr(data-tip); position:absolute;  padding:2px;
   margin-right:4px;margin-left:4px;margin-top:4px; margin-bottom:4px; color:#fff;   right:6px;  
 }
 

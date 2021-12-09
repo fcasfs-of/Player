@@ -28,7 +28,7 @@ div.comments {transition: all 0.1s linear;
   padding: 27px;
   box-sizing: border-box;
   top: 5em;
-}
+}  
 
 div.comments::after {transition: all 0.1s linear;	
   content: " ";

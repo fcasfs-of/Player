@@ -78,8 +78,6 @@ function Reproduce_aLink_s(fl, Reproddfsink_f,Reproddfsink_t,Reproddfsink_p, ob)
  set_player_settings().size(ob, "100%");   set_player_settings().position.center(ob);    set_icon_controls("");    var app_plconfig_playlist={ search:true, autoplay:false };  var app_plconfig = { Playlist:app_plconfig_playlist, Controls:true, Title:true };  var controls_settings_buttons = { Icon:false, Speed_Control:true, Stop:true, Download:false };  set_player_controls_settings(controls_settings_buttons);set_player_config(app_plconfig);        set_player_settings().version_update();   set_player_settings().Button_Light(true);    /*set_player_settings().Scroll_to_MiniPlayer(ob);*/
 var zzszhisdddceardsscz=document.getElementById(ob);     download_video_set_in=download_video_setdd;      
 
-   var wqqzasdfdffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     wqqzasdfdffsswwmdpssswwfltl.innerHTML="<div style='padding:4px;'>"+wqqzasdfsfgsswwfltl+"</div><br/><br/><br/><br/><br/>";
-
 } 
 
 

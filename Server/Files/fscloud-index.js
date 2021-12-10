@@ -36,8 +36,8 @@ targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("video",true,true,lo
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("music",true,true,loacol9d+"/audio/711000175000102800114110.html","https://fcasfs-of.github.io/Player/Server/Files/Audio_Spectrum-648789.jpg","Space Squad: Gavan vs Dekaranger - music 02");
 
 
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("music",true,true,loacol9d+"/photo/451450570543505847050855.html","https://archive.org/download/784757575712/1377976_230563587119799_822013184_n.jpg","Jiraiya vs Dokusai");
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("music",true,true,loacol9d+"/photo/451451111141505847050855.html","https://archive.org/download/784757575712/IMG_118522831103.jpeg","Juspion vs MacGaren");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("photo",true,true,loacol9d+"/photo/451450570543505847050855.html","https://archive.org/download/784757575712/1377976_230563587119799_822013184_n.jpg","Jiraiya vs Dokusai");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("photo",true,true,loacol9d+"/photo/451451111141505847050855.html","https://archive.org/download/784757575712/IMG_118522831103.jpeg","Juspion vs MacGaren");
 
 
 

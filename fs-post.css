@@ -399,17 +399,29 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
-.thumbs_list div.gallery, #thunng div.gallery {background:#fff;color:#000;
+.thumbs_list div.gallery {background:#fff;color:#000;
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;  transition: all 0.1s linear;	
 }
-.thumbs_list div.gallery:hover, #thunng div.gallery:hover { cursor:pointer; background:#fff;color:#000;
+#thunng div.gallery {background:#fff;color:#000;
+  margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;  transition: all 0.1s linear;	
+}
+.thumbs_list div.gallery:hover { cursor:pointer; background:#fff;color:#000;
+  border: 1px solid #777;transition: all 0.1s linear;	
+}
+#thunng div.gallery:hover { cursor:pointer; background:#fff;color:#000;
   border: 1px solid #777;transition: all 0.1s linear;	
 }
 
-.thumbs_list div.gallery img, #thunng div.gallery img {
+.thumbs_list div.gallery img {
   width: 100%;  transition: all 0.1s linear;	  height: auto;
 }
-.thumbs_list div.gallery div.desc, #thunng div.gallery div.desc {overflow: auto; background:#fff; color:#000;
+#thunng div.gallery img {
+  width: 100%;  transition: all 0.1s linear;	  height: auto;
+}
+.thumbs_list div.gallery div.desc {overflow: auto; background:#fff; color:#000;
+  padding: 15px;transition: all 0.1s linear;  text-align: center;
+}
+#thunng div.gallery div.desc {overflow: auto; background:#fff; color:#000;
   padding: 15px;transition: all 0.1s linear;  text-align: center;
 }
 

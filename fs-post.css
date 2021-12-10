@@ -412,10 +412,10 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
   border: 1px solid #777;transition: all 0.1s linear;	
 }
 
-.thumbs_list div.gallery img {
+.thumbs_list div.gallery img {background:#000; 
   width: 100%;  transition: all 0.1s linear;	  height: auto;
 }
-#thunng div.gallery img {
+#thunng div.gallery img {background:#000; 
   width: 100%;  transition: all 0.1s linear;	  height: auto;
 }
 .thumbs_list div.gallery div.desc {overflow: auto; background:#fff; color:#000;

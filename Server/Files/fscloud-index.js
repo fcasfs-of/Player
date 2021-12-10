@@ -39,6 +39,7 @@ targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("music",true,true,lo
 
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("photo",true,true,loacol9d+"/photo/451450570543505847050855.html","https://archive.org/download/784757575712/1377976_230563587119799_822013184_n.jpg","Jiraiya vs Dokusai");
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("photo",true,true,loacol9d+"/photo/451451111141505847050855.html","https://archive.org/download/784757575712/IMG_118522831103.jpeg","Juspion vs MacGaren");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset("photo",true,true,loacol9d+"/photo/421440570524407187054454.html","https://archive.org/download/784757575712/78 (9).jpeg","Juspion: MacGaren 1");
 
 
 

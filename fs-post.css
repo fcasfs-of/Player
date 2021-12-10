@@ -399,17 +399,17 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
-.thumbs_list div.gallery {background:#fff;color:#000;
+.thumbs_list div.gallery {padding:2px;background:#fff;color:#000;
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;  transition: all 0.1s linear;	
 }
-#thunng div.gallery {background:#fff;color:#000;
+#thunng div.gallery {padding:2px;background:#fff;color:#000;
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;  transition: all 0.1s linear;	
 }
 .thumbs_list div.gallery:hover { cursor:pointer; background:#fff;color:#000;
-  border: 1px solid #777;transition: all 0.1s linear;	
+  border: 2px solid #777;transition: all 0.1s linear;	
 }
 #thunng div.gallery:hover { cursor:pointer; background:#fff;color:#000;
-  border: 1px solid #777;transition: all 0.1s linear;	
+  border: 2px solid #777;transition: all 0.1s linear;	
 }
 
 .thumbs_list div.gallery img {background:#000; 

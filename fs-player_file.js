@@ -7,6 +7,5 @@ create:function(tt,tug,rr,ti,de,tg,zl){fs_lightbiddrame.innerHTML='<div class="b
 
 
 
-var zssfdggfsasdfsdfsfd_iswe = ""+fcasmdplex_loadex.open("?embed=")+"";
-if (zssfdggfsasdfsdfsfd_iswe=="true"){   Reproduce_aLink(zsssasd_iswe,"zpreviewdemovideinz");        }
+//var zssfdggfsasdfsdfsfd_iswe = ""+fcasmdplex_loadex.open("?embed=")+"";if (zssfdggfsasdfsdfsfd_iswe=="true"){   Reproduce_aLink(zsssasd_iswe,"zpreviewdemovideinz");        }
   

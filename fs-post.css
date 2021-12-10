@@ -402,7 +402,7 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 #thunng div.gallery {background:#fff;text-align: center;color:#000;
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;transition: all 0.1s linear;	
 }
-#thunng div.gallery:hover {background:#fff;color:#000;
+#thunng div.gallery:hover { cursor:pointer; background:#fff;color:#000;
   border: 1px solid #777;transition: all 0.1s linear;	
 }
 

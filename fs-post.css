@@ -399,7 +399,7 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
-.thumbs_listdiv.gallery, #thunng div.gallery {background:#fff;color:#000;
+.thumbs_list div.gallery, #thunng div.gallery {background:#fff;color:#000;
   margin: 5px;  border: 1px solid #ccc;  float: left;  width: 180px;  transition: all 0.1s linear;	
 }
 .thumbs_list div.gallery:hover, #thunng div.gallery:hover { cursor:pointer; background:#fff;color:#000;

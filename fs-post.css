@@ -21,14 +21,14 @@ h2::after {
 }
 
 div.comments {transition: all 0.1s linear;	
-  position: relative;
+  position: relative;   
   width: 100%;
   background: #fff;
   margin: auto;
   padding: 27px;
   box-sizing: border-box;
   top: 5em;
-}  
+}    
 
 div.comments::after {transition: all 0.1s linear;	
   content: " ";

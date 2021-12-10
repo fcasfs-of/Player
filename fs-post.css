@@ -406,7 +406,7 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
   border: 1px solid #777;transition: all 0.1s linear;	
 }
 
-#thunng div.gallery img {background:#000;color:#000
+#thunng div.gallery img {background:#000;color:#000;
   width: 100%;transition: all 0.1s linear;	  height: auto;
 }
 #thunng div.desc {overflow: auto; background:#fff;color:#000;

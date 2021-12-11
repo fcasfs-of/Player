@@ -25,6 +25,17 @@ function SelectTdfext(element) {
 
 
 
+function si_thudddiffcon(zzz) {   var zsifgdfg_thudsss="https://fcasfs-of.github.io/Player/Server/img/";   var zsi_thudsss="";     
+    if(zzz=="fil"){  zsi_thudsss="";  }   if(zzz=="text"){ zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"text-box.png'/>";  }   
+                             if(zzz=="photo"){ zsi_thudsss=zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"picture.png'/>";   }  
+                             if(zzz=="document"){ zsi_thudsss=zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"documents.png'/>";     } 
+                             if(zzz=="music"){ zsi_thudsss=zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"headphone.png'/>";     }  
+                             if(zzz=="video"){ zsi_thudsss=zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"movie.png'/>";   }   
+                             if(zzz=="play"){ zsi_thudsss=zsi_thudsss="<img style='margin-right:4px;' src='"+zsifgdfg_thudsss+"play(2).png'/>"; } 
+return zsi_thudsss;   }    
+
+
+
 
 var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
 function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } function fcasmdplex_load_server(){ return fcasmdplex_loadex.openex.server(); }    

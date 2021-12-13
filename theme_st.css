@@ -79,7 +79,7 @@ nav[role="navigation"] li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 nav[role="navigation"] li a {
-  color: #ddd;
+  color: #ddd;background: #2a3542;
   text-decoration: none;
   display: block;
   padding: 0.7em;
@@ -177,7 +177,7 @@ main li {
   padding-left: 1.2em;
   margin: 0.5em 0;
 }
-main li:before {
+main .li:before {
   content: "";
   position: absolute;
   width: 0;

@@ -7,7 +7,7 @@ function truncgate(input) {   return truncateWithEllipses(input, 100);   }
 function si_thud(inputz) {       var zsi_thudsss="";//<img class=\"fa\" style='display:none;'/>";     
   if(loacol_thum=="true"){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
 
-function si_rrrthud(inputz, fh) {       var zsi_thudsss="";       if(inputz==true){ zsi_thudsss=inputz; }     return zsi_thudsss;   }    
+function si_rrrthud(inputz, fh) {       var zsi_thudsss="";       if(inputz==true){ zsi_thudsss=fh; }     return zsi_thudsss;   }    
 
 
 function si_thudicon(zzz, inputz, inddputz) {   var zsi_tddddfdfdhudsss="";    var zsi_tdfdfdhudsss="";    var zsid_fdtdfdfdhudsss="";  var zsi_thudsss="fl";     
@@ -52,7 +52,7 @@ return targf_ddlist_filesaaaet;   }
 
 
 var targf_ddlist_filesaaaet = '';
-targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+additebfnnd(true,targf_ddlist_filesaaaet, true,true);
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+additebfnnd(true,targf_ddlist_filesaaaet, true,true, true);
 targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+'';
 
 

@@ -75,7 +75,7 @@ nav[role="navigation"] {
   color: #ddd;
   /* icons */
 }
-nav[role="navigation"] li {
+nav[role="navigation"] li {background: #2a3542;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 nav[role="navigation"] li a {

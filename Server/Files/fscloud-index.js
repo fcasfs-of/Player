@@ -18,7 +18,7 @@ return { ty:{c:zsi_tddddfdfdhudsss,t:""+zsid_fdtdfdfdhudsss}, ic: ""+zsi_thudsss
 
 
 function add_fileset(fdgf, zza, zz,nm,aaa,m,bb,nn) {   var adffffd_fileset="";   if(zza==true){  adffffd_fileset="display:none;";  }    var add_filesetsss=si_thudicon(aaa,zz,nm);      
-    return '<li class="'+add_filesetsss.ic+'"><a class="'+si_rrrthud(fdgf,add_filesetsss.ty.c)+'" style="cursor:pointer;'+adffffd_fileset+'" onclick="ssdo_vieimad_vietdd(\''+m+'\', \''+nn+'\',\'\')">'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+'<span '+add_filesetsss.ty.t+'>'+truncgate(nn)+'</span></a></li>';    }       
+    return '<li class="'+si_rrrthud(fdgf,add_filesetsss.ic)+'"><a class="'+add_filesetsss.ty.c+'" style="cursor:pointer;'+adffffd_fileset+'" onclick="ssdo_vieimad_vietdd(\''+m+'\', \''+nn+'\',\'\')">'+si_thud("<img src=\""+bb+"\" class=\"fa\"/>")+'<span '+add_filesetsss.ty.t+'>'+truncgate(nn)+'</span></a></li>';    }       
 
 
 var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";

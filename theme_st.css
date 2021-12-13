@@ -70,10 +70,10 @@ header[role="banner"] .utilities li a {
   content: "";
 }
 
-nav[role="navigation"] {
+nav[role="navigation"], .main {
   background: #2a3542;
   color: #ddd;
-  /* icons */
+
 }
 nav[role="navigation"] li {background: #2a3542;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -177,7 +177,7 @@ main li {
   padding-left: 1.2em;
   margin: 0.5em 0;
 }
-main .li:before {
+main .zli:before {
   content: "";
   position: absolute;
   width: 0;

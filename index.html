@@ -89,7 +89,7 @@ var zzszhirtertceardssczz=document.getElementById("down_id_ddmdoos");    zzszhir
 <main role="main">
   
   <section class="panel important">
-    <h2>ALL FILES</h2>
+    <h2 style="overflow:auto;">ALL FILES<span id="f_lisdddt_filesaaa"></span></h2>
     <ul id="f_list_filesaaa" class="mdpl-fcas-audiotrans" style="width:90%;"></ul>
 </section>
   
@@ -101,8 +101,9 @@ var zzszhirtertceardssczz=document.getElementById("down_id_ddmdoos");    zzszhir
       function si_thud(inputz) {   return "";   }    
 
       var targfd_ddlist_filesaaaet="";   var loacol_thum = "false";
-      var targf_listcaaaet = document.getElementById("f_list_filesaaa");  targf_listcaaaet.innerHTML=""+additebfnnd(false,targfd_ddlist_filesaaaet, false,false, false);
-    shuffle(targf_listcaaaet);</script>
+      var targf_listcaaaet = document.getElementById("f_list_filesaaa"); var targf_ffflistcaaaet = document.getElementById("f_lisdddt_filesaaa");   targf_listcaaaet.innerHTML=""+additebfnnd(false,targfd_ddlist_filesaaaet, false,false, false);
+    shuffle(targf_listcaaaet);  targf_ffflistcaaaet.innerHTML=":  "+targf_listcaaaet.children.length+"  ";
+  </script>
 
 </body>
 </html>

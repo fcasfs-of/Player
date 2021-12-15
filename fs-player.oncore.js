@@ -12,6 +12,16 @@ var download_video_set_in=function(){};
 
 
 
+
+var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d){
+	return '<div class="relative">                <div class="privacy-wall">                    <div class="privacy-wall-container">                        <div class="privacy-wall-privacywarn">                            <div class="privacy-wall-privacywarn-i">                                <div class="privacy-wall-privacywarn-text"> You need to subscribe with us to reproduce this and other files on FCAS_FS Premium! </div>                                <div class="btnContainer mitte">                                    <a class="standard btnBlau icon-double-arrow-right XL privacy-wall-ok" href="/payment" style="display:none;"> Go to payment page </a>                                </div>                            </div>                        </div>                   </div>                </div>                                    <img src="'+d+'"/>                           </div>';
+},
+	pro:function(z,nn){  if(zs==true){
+	var zzszhirtertcfeardsscz=document.getElementById(dss);                 
+zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("").set(z);  }   else{ nn(); }  } };    };  
+    
+
+
 function fs_url_int_bb(ssz){   var zzbslob = ssz;   return ""+zzbslob+"";   }
 
 

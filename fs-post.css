@@ -461,3 +461,229 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
+.relative {position:relative}
+.relative img { width:100%;height:100%; }
+
+
+
+.privacy-wall .btnBlau {
+    position: relative;
+    display: block;
+    font-family: EuclidCircularA-Semibold, Helvetica, Arial, sans-serif!important;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #19b5fe;
+    padding: 16px 20px 15px;
+    -webkit-transition: all .45s cubic-bezier(.19, 1, .22, 1);
+    transition: all .45s cubic-bezier(.19, 1, .22, 1);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none
+}
+
+.privacy-wall .btnBlau:hover,
+.privacy-wall .is-hover.btnBlau {
+    color: #fff
+}
+
+.privacy-wall .inline.btnBlau,
+button.inline {
+    display: inline-block
+}
+
+.privacy-wall .is-right.btnBlau,
+button.is-right {
+    margin-left: auto;
+    max-width: 190px
+}
+
+.privacy-wall .is-bold.btnBlau,
+button.is-bold {
+    font-family: EuclidCircularA-Bold, Helvetica, Arial, sans-serif
+}
+
+.privacy-wall .mt.btnBlau,
+button.mt {
+    display: block;
+    margin-top: 45px
+}
+
+.privacy-wall .with-icon.btnBlau,
+button.with-icon {
+    text-align: left;
+    padding-right: 55px
+}
+
+.privacy-wall .with-icon.btnBlau img,
+button.with-icon img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 15px;
+    top: 50%;
+    margin-top: -12px
+}
+.privacy-wall .with-icon.with-arrow.btnBlau img,
+button.with-icon.with-arrow img {
+    width: 20px;
+    height: 10px;
+    margin-top: -5px
+}
+
+
+.privacy-wall .with-icon.is-filter.btnBlau,
+button.with-icon.is-filter {
+    display: inline-block;
+    height: 40px;
+    border-radius: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 65px
+}
+
+.privacy-wall .with-icon.is-filter.btnBlau img,
+button.with-icon.is-filter img {
+    width: 20px;
+    height: 18px;
+    margin-top: -9px
+}
+
+.privacy-wall .with-icon.trigger-filter-remove.btnBlau,
+button.with-icon.trigger-filter-remove {
+    display: inline-block;
+    text-align: right;
+    padding-right: 0;
+    padding-left: 27px;
+    font-family: EuclidCircularA-Medium, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #32353b;
+    background: none
+}
+
+.privacy-wall .with-icon.trigger-filter-remove.btnBlau span,
+button.with-icon.trigger-filter-remove span {
+    font-family: EuclidCircularA-Medium, Helvetica, Arial, sans-serif
+}
+
+.privacy-wall .with-icon.trigger-filter-remove.btnBlau img,
+button.with-icon.trigger-filter-remove img {
+    right: auto;
+    left: 0;
+    width: 17px;
+    height: 18px;
+    margin-top: -8px
+}
+
+
+.privacy-wall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0
+}
+
+.privacy-wall-container {
+    display: table;
+    background: hsla(200, 6%, 80%, .85);
+    height: 100%;
+    width: 100%
+}
+
+.instagram-wrapper .privacy-wall-container {
+    background: #8bd592
+}
+
+.privacy-wall-privacywarn {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.privacy-wall-privacywarn-i {
+    margin: 0 auto;
+    background: #fff;
+    padding: 5%;
+    border-radius: 4px;
+    max-width: 88%
+}
+
+.privacy-wall-privacywarn-text {
+    margin-bottom: 12px;
+    text-align: center;
+    direction: ltr!important
+}
+
+.privacy-wall-privacywarn-text,
+.privacy-wall-privacywarn-text a {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: EuclidCircularA-Regular, Helvetica, Arial, sans-serif;
+    color: #32353b
+}
+
+.privacy-wall-privacywarn-text a {
+    font-size: inherit;
+    line-height: inherit
+}
+
+.privacy-wall .mitte {
+    text-align: center
+}
+
+.privacy-wall .btnBlau {
+    color: #fff!important;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (min-width:768px) {
+    .privacy-wall .btnBlau,
+    button {
+        max-width: 255px
+    }
+
+    .privacy-wall-privacywarn-i {
+        width: 500px;
+        max-width: 60%
+    }
+
+
+}
+@media (min-width:1024px) {
+    .privacy-wall button {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 0;
+        z-index: 5
+    }
+    .privacy-wall button:before {
+        display: none
+    }
+}
+
+@media (max-width:340px) {
+    .privacy-wall-privacywarn-text {
+        font-size: 12px;
+        line-height: 18px
+    }
+    .privacy-wall .btnBlau {
+        padding: 10px 15px
+    }
+}
+
+
+
+
+
+
+
+

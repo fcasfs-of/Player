@@ -435,3 +435,63 @@ td {
     width: 23%;
   }
 }
+
+
+
+
+
+.btn_encode {
+    border: none;
+    background-color: inherit;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Product Sans;
+    border-radius: 2px;
+}
+.btn_decode {
+    border: none;
+    background-color: inherit;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Product Sans;
+    border-radius: 2px;
+}
+
+.btn_encode:hover {background: dodgerblue;}
+.btn_encode:hover {color: #FFFFFF}
+.btn_decode:hover {background: #eee;}
+
+.btn_encode {color: dodgerblue;}
+.btn_decode {color: dodgerblue;}
+
+.input_text {
+  float: left;
+  padding: 6px 10px;
+  backgrou6d: #ddd;
+  font-size: 14px;
+  font-family: Product Sans;
+  width: 80%;
+  margin-right: 8px;
+  background-color: #FFFFFF;
+  border: 1.6px solid #AAAAAA;
+  border-radius: 8px;
+}
+
+.output_text {
+  font-size: 16;
+  font-family: Product Sans;
+  padding: 8px 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 5px;
+  background-color: #E2E2E2;
+  border-radius: 3px;
+}
+
+
+

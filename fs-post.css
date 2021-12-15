@@ -461,7 +461,7 @@ pre.code-jquery code {   transition: all 0.1s linear;	 color: #78909c;}
 
 
 
-.relative {position:relative}
+.relative {position:relative;width:100%;height: 100%;}
 .relative img { width:100%;height:100%; }
 
 

@@ -14,7 +14,7 @@ body {
   color: #2F4F4F;
 }
 
-.button[disabled]{cursor:default;pointer-events:none;background-color:#23d160;border-color:transparent;box-shadow:none}
+.button[disabled]{cursor:default;pointer-events:none;border-color:transparent;box-shadow:none}
 
 body.login {
   background-color: #fff;

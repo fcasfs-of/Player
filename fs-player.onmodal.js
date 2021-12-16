@@ -296,3 +296,23 @@ function decodetext() {
 var _iir_codpr='<input class="input_text" id="input_string" type="text" placeholder="Enter text"><br><br><button class="btn_encode" onclick="encodetext()">Encode</button><button class="btn_decode" onclick="decodetext()">Decode</button><br><br>  <span class="output_text" id="output_string"></span>';
 
 
+
+
+
+
+var btn_top_ht={};
+btn_top_ht.css='<style> .zpelement{margin:20px 0 0;clear:both} .zpelem-box {  padding: 0px;  border-width: 0px;  border-style: solid; }.zpbox-container .zpelement:first-child{margin-top:0}.zpelem-box {  background-color: transparent;  border-color: transparent; } .rounded-floating-btn {      position: fixed;    right: 20px;    width: 50px !important;    /*height: 75px !important;*/   bottom: 20px;    padding: 15px;   z-index: 5;    border-radius: 2px;    cursor: pointer;    background-color: #101010;    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);   opacity:1;   color: #fff;    font-size: 70%;    font-weight: 400;  -webkit-transition: all 0.1s ease; transition: all 0.1s ease; }   .floated-btn-svg-icon {    width: 20px;  -webkit-transition: all 0.1s ease; transition: all 0.1s ease;  fill: #fff;    margin: 0 auto;    margin-top: 3px;}   .rounded-floating-btn:hover { -webkit-transition: all 0.1s ease; transition: all 0.1s ease;opacity:0.9; }    .rounded-floating-btn .zptext {   -webkit-transition: all 0.1s ease; transition: all 0.1s ease; margin-top: 3px;   }  .zptext-align-center{text-align:center}    </style>';
+btn_top_ht.code='<div class="zpelem-box zpelement zpbox-container zpdefault-section zpdefault-section-bg rounded-floating-btn" data-background-type="none" style="display:none" id="scrollToTop" onclick="clifkyiottp();"><div class="floated-btn-svg-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.831 268.832"><path d="M223.255 83.659l-80-79.998c-4.881-4.881-12.797-4.881-17.678 0l-80 80c-4.883 4.882-4.883 12.796 0 17.678 2.439 2.44 5.64 3.661 8.839 3.661s6.397-1.221 8.839-3.661l58.661-58.661v213.654c0 6.903 5.597 12.5 12.5 12.5 6.901 0 12.5-5.597 12.5-12.5V42.677l58.661 58.659c4.883 4.881 12.797 4.881 17.678 0 4.882-4.881 4.882-12.795 0-17.677z"></path></svg></div><div class="zptext zptext-align-center" style="display:none;"><p>TOP</p></div></div>';
+
+var zzdiv = document.createElement('div');   
+zzdiv.id="btn_top-ds";
+
+function clifkyiottp(){   }
+
+window.onload=function(){  zzdiv.innerHTML=btn_top_ht.css+btn_top_ht.code;     zzdiv.addEventListener('click',function(e){    e.preventDefault();    window.scrollTo(0,0);});     document.body.appendChild(zzdiv);          };
+window.onscroll = function() {    var threshold = 50;   var scrollToTop_btn = document.getElementById('scrollToTop');   scrollToTop_btn.style.display = (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) ? 'block' : 'none';  };
+
+
+
+
+

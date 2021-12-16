@@ -21,6 +21,10 @@ h2::after {
 }
 
 
+
+.button[disabled]{cursor:default;pointer-events:none;background-color:#23d160;border-color:transparent;box-shadow:none}
+
+
 .btnzfs {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);

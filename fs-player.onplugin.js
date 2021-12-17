@@ -51,16 +51,16 @@ var disqus_config = function () {
                 this.page.url = location.href; 
                 this.page.identifier = ""; 
             };
+    cmmpri=cmmpri;
+if (cmmpri==false) {
     (function() { 
-    if (cmmpri==false) {
         var d = document, s = d.createElement('script');
     s.async = true;
     s.src = 'https://fcasfs-of.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
-    }
     })();
-
+    }
 
 
 function setcoome(e){  

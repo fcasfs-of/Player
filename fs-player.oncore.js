@@ -1,6 +1,7 @@
 
 /* app-vidplayer */                            
 
+var cmmpri=false;
 var fs_trans_osvendors = [ '-webkit-', '-o-', '-moz-', '-ms-', '' ];     
 var fs_trans_osprefix = [ "", "o", "ms", "moz", "khtml", "webkit" ];     
 
@@ -18,7 +19,7 @@ var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d)
 },set_comment:function(ds){
 	return '<div class="relative">                <div class="privacy-wall">                    <div class="privacy-wall-container">                        <div class="privacy-wall-privacywarn">                            <div class="privacy-wall-privacywarn-i">                                <div class="privacy-wall-privacywarn-text"> '+ds+' </div>                                <div class="btnContainer mitte">                                                    </div>                            </div>                        </div>                   </div>                </div>                                   </div>';
 },
-	pro:function(z,nn){  if(zs==true){
+	pro:function(z,nn){  if(zs==true){  cmmpri=true;
 	var zzszhirtertcfeardsscz=document.getElementById(dss);                 
 zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set(z); 
 	  var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('disqus_thread');     

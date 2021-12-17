@@ -52,11 +52,13 @@ var disqus_config = function () {
                 this.page.identifier = ""; 
             };
     (function() { 
-    var d = document, s = d.createElement('script');
+    if (cmmpri==true){
+        var d = document, s = d.createElement('script');
     s.async = true;
     s.src = 'https://fcasfs-of.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
+    }
     })();
 
 

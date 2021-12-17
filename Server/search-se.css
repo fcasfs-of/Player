@@ -74,7 +74,7 @@ ul li:hover a.tip:hover span:before {  transition: all 0.1s linear;
 }
 
 
-#emb-fs div { width:100%; }        #emb-fs .pricing-table div { width:50%; }         
+#emb-fs div { width:100%; }        #emb-fs div .pricing-table { width:50%; }         
 
    
 

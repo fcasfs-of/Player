@@ -21,11 +21,11 @@ var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d)
 },setcomment:function(ds,ss){
 	ds.innerHTML="<div style='padding:4px;'>"+fcasmdplex_loadex_premuin_fl("this").set_comment(ss)+"</div><br/><br/><br/><br/><br/>"
 },
-	pro:function(z,nn){   var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');                  
+	pro:function(z,nn){                 
 			   if(zs==true){  cmmpri=true;
 	var zzszhirtertcfeardsscz=document.getElementById(dss);   
 zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set(z);    
- window.onload=function(){  fcasmdplex_loadex_premuin_fl("this").setcomment(wqqzasdfddffsswwmdpssswwfltl, "The Comments for this File not available");  };
+ document.onload=function(){  var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');      fcasmdplex_loadex_premuin_fl("this").setcomment(wqqzasdfddffsswwmdpssswwfltl, "The Comments for this File not available");  };
 }   else { nn(); }  } };    };  
     
 

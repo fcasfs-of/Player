@@ -18,12 +18,14 @@ var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d)
 	return '<div class="relative">                <div class="privacy-wall">                    <div class="privacy-wall-container">                        <div class="privacy-wall-privacywarn">                            <div class="privacy-wall-privacywarn-i">                                <div class="privacy-wall-privacywarn-text"> You need to subscribe with us to reproduce this and other files on FCAS_FS Premium! </div>                                <div class="btnContainer mitte">                                    <a class="standard btnBlau icon-double-arrow-right XL privacy-wall-ok" href="https://fcasfs-of.github.io/Player/payment.html"> Go to payment page </a>                                </div>                            </div>                        </div>                   </div>                </div>                                    <img src="'+d+'"/>                           </div>';
 },set_comment:function(ds){
 	return '<div class="relative">                <div class="privacy-wall">                    <div class="privacy-wall-container">                        <div class="privacy-wall-privacywarn">                            <div class="privacy-wall-privacywarn-i">                                <div class="privacy-wall-privacywarn-text"> '+ds+' </div>                                <div class="btnContainer mitte">                                                    </div>                            </div>                        </div>                   </div>                </div>                                   </div>';
+},setcomment:function(ds,ss){
+	ds.innerHTML="<div style='padding:4px;'>"+fcasmdplex_loadex_premuin_fl("this").set_comment(ss)+"</div><br/><br/><br/><br/><br/>"
 },
 	pro:function(z,nn){  if(zs==true){  cmmpri=true;
 	var zzszhirtertcfeardsscz=document.getElementById(dss);                 
 zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set(z); 
 	  var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     
-	wqqzasdfdffsswwmdpssswwfltl.innerHTML="<div style='padding:4px;'>"+fcasmdplex_loadex_premuin_fl("this").set_comment("The Comments for this File not available")+"</div><br/><br/><br/><br/><br/>";
+	fcasmdplex_loadex_premuin_fl("this").setcomment(wqqzasdfdffsswwmdpssswwfltl, "The Comments for this File not available");
 }   else { nn(); }  } };    };  
     
 

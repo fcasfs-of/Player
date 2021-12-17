@@ -176,19 +176,22 @@ div.comments::after {transition: all 0.1s linear;
   background: #fff;transition: all 0.1s linear;	
   border-radius: 5px;
   box-shadow: hsla(0, 0, 0, 0.2) 0 4px 2px -2px;
-  font-family: "adelle-sans", sans-serif;
+  //font-family: "adelle-sans", sans-serif;
   font-weight: 100;  
   margin: 48px auto;
-  width: 20rem;
+  //width: 20rem;
 }
   @media screen and (min-width: 480px) {
-   .blog-container { width: 28rem;transition: all 0.1s linear;	}
+   .blog-container { //width: 28rem;
+     transition: all 0.1s linear;	}
   }
   @media screen and (min-width: 767px) {
-    .blog-container {width: 40rem;transition: all 0.1s linear;	}
+    .blog-container {//width: 40rem;
+      transition: all 0.1s linear;	}
   }
   @media screen and (min-width: 959px) {
-    .blog-container {width: 50rem;transition: all 0.1s linear;	}
+    .blog-container {//width: 50rem;
+      transition: all 0.1s linear;	}
   }
 
 .blog-container a {

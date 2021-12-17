@@ -52,7 +52,7 @@ var disqus_config = function () {
                 this.page.identifier = ""; 
             };
     (function() { 
-    if (cmmpri==true){
+    if (cmmpri==true){  }  else {
         var d = document, s = d.createElement('script');
     s.async = true;
     s.src = 'https://fcasfs-of.disqus.com/embed.js';

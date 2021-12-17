@@ -51,8 +51,6 @@ var disqus_config = function () {
                 this.page.url = location.href; 
                 this.page.identifier = ""; 
             };
-    cmmpri=cmmpri;
-if (cmmpri==false) {
     (function() { 
         var d = document, s = d.createElement('script');
     s.async = true;
@@ -60,7 +58,6 @@ if (cmmpri==false) {
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-    }
 
 
 function setcoome(e){  

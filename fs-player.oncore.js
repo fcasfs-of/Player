@@ -23,7 +23,7 @@ var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d)
 	var zzszhirtertcfeardsscz=document.getElementById(dss);                 
 zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set(z); 
 	  var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');     
-		wqqzasdfddffsswwmdpssswwfltl.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set_comment("The Comments for this File not available")+"";
+	wqqzasdfdffsswwmdpssswwfltl.innerHTML="<div style='padding:4px;'>"+fcasmdplex_loadex_premuin_fl("this").set_comment("The Comments for this File not available")+"</div><br/><br/><br/><br/><br/>";
 }   else { nn(); }  } };    };  
     
 

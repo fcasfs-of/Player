@@ -179,7 +179,8 @@ div.comments::after {transition: all 0.1s linear;
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;  
   margin: 48px auto;
-  width: 80%;//20rem;
+  width: 80%;
+  //20rem;
 }
   @media screen and (min-width: 480px) {
    .blog-container { //width: 28rem;

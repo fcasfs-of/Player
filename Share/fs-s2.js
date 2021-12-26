@@ -5,7 +5,7 @@
 * 
 */
 var socialShare = (function() {
-	var http = 'ht'+'tp://', https = 'ht'+'tps://', url_ori = location.href, click_target = "zpsocial-share-item", html_url = "/share", //No I18N
+	var http = 'ht'+'tp://', https = 'ht'+'tps://', url_ori = location.href, click_target = "zpsocial-share-item", html_url = "https://fcasfs-of.github.io/Player/Share/fs-s.html", //No I18N
 		appSDKId = 'zsApp_socialShareSDKs', container = "zpsocial-share-container",//No I18N
 		styleCls = "zpsocial-share-style-", alignCls = "zpsocial-share-align-",//No I18N
 		halignCls = "zpsocial-share-halign-",//No I18N

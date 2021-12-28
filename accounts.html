@@ -75,10 +75,12 @@ function notifyLoad() {     }
   <span id="zidpro"></span>
   
 <script>  
-var targf_idproaaaet = document.getElementById("idpro"); 
+window.addEventListener("load", function(){ 
+  var targf_idproaaaet = document.getElementById("idpro"); 
   var targf_idproaaaetttt=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?id=");
         loadJS("https://fcasfs-of.github.io/Player/Account/"+targf_idproaaaetttt+".js", function(){});                                     
   targf_idproaaaet.innerHTML="<br/>"+aspor()+"<br/><br/>";
+  });
   
 </script>
 

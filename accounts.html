@@ -50,8 +50,8 @@ function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } functi
     function loadJS(src, then) {
  var targf_daaet = document.getElementById("emb-fs"); 
  var script = document.createElement('script');
-  script.setAttribute('type', 'text/javascript');  script.setAttribute('src', src);  script.onload = then;
-  targf_daaet.appendChild(script); document.body.appendChild(script);
+  script.setAttribute('type', 'text/javascript');  script.setAttribute('src', src);  //script.onload = then;
+  targf_daaet.appendChild(script); document.body.appendChild(script);  then();
 }
 
 function notifyLoad() {     }
@@ -80,7 +80,7 @@ function notifyLoad() {     }
 window.addEventListener("load", function(){ 
   var targf_idproaaaet = document.getElementById("idpro"); 
   var targf_idproaaaetttt=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?id=");
-        loadJS("https://fcasfs-of.github.io/Player/Account/"+targf_idproaaaetttt+".js", loadJSssssss);                                     
+        loadJS("https://fcasfs-of.github.io/Player/Account/"+targf_idproaaaetttt+".js", function(){});                                     
   targf_idproaaaet.innerHTML="<br/>"+aspor()+"<br/><br/>";
   });
   }  loadJSssssss();

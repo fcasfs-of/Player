@@ -41,6 +41,8 @@
 
 <script src="https://fcasfs-of.github.io/Player/fs-player.onmodal.js"></script>
 
+  <script src="Accounts/users.js"></script>
+
   <script>
 function fmdplex_loadex_txv(t){  if(t==""){    return "";  }   if(t=="undefined"){    return "";  }     if(t==undefined){    return "";  }   else {  return t; }  }   
     
@@ -76,14 +78,21 @@ function notifyLoad() {     }
   <span id="zidpro"></span>
   
 <script>  
-  function loadJSssssss(){
-window.addEventListener("load", function(){ 
   var targf_idproaaaet = document.getElementById("idpro"); 
   var targf_idproaaaetttt=fmdplex_loadex_txv(decodeURIComponent(fcasmdplex_loadex.open("?id=");
-        loadJS("https://fcasfs-of.github.io/Player/Account/"+targf_idproaaaetttt+".js", function(){});                                     
-  targf_idproaaaet.innerHTML="<br/>"+aspor()+"<br/><br/>";
-  });
-  }  loadJSssssss();
+
+function aspor(ss){   var dsfdssdade=id_proff(ss);
+  var dsfdsftitle=dsfdssdade.name;
+  var dsfdsfimf=dsfdssdade.img;
+  var dsfdsftsubtte=dsfdssdade.info;
+  var dsfdsftinfe=dsfdssdade.desc;
+ 
+  document.title="FS Player: Account: "+dsfdsftitle;
+return '<div class="card Profile"><img src="'+dsfdsfimf+'" onclick="do_vieimad_vietdd(\'image\',\''+dsfdsfimf+'\', \''+dsfdsftitle+'\')" style="cursor:pointer;width:100%"><h1>'+dsfdsftitle+'</h1><p class="title">'+dsfdsftsubtte+'</p><p>'+dsfdsftinfe+'</p>  <div style="margin: 24px 0; display:none;">  </div>  <p style="display:none;"><button></button></p></div>';
+}
+
+if(targf_idproaaaetttt==""){  }  else{
+  targf_idproaaaet.innerHTML="<br/>"+aspor(targf_idproaaaetttt)+"<br/><br/>";   }
   
 </script>
 

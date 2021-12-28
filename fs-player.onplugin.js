@@ -74,3 +74,83 @@ var wqqzasdffgdgsembeddlsswwfltl = document.getElementById('embe-ilss');
 var wqqzasdffgdgslightembe_box_modalpssswwfltl = document.getElementById('lightembe_box_modal');   wqqzasdffgdgslightembe_box_modalpssswwfltl.style.display="none";   wqqzasdffgdgslightembe_box_modalpssswwfltl.innerHTML=wqqzasdfsfgsswwfltlz;
 wqqzasdffgdgslightembe_box_modalpssswwfltl.oncontextmenu=function(){return true;this.preventDefault();};  wqqzasdffgdgslightembe_box_modalpssswwfltl.onselectstart=function(){return true;};  wqqzasdffgdgslightembe_box_modalpssswwfltl.ondragstart=function(){return false;};  
 
+
+
+
+
+
+
+
+var serviceWorker=window; var self=window;
+var btnAdd=document.getElementById("e3");
+
+
+if ('serviceWorker' in navigator) {   navigator.serviceWorker.register('https://fcasfs-of.github.io/Player/service-worker/registration-events/service-worker.js', {
+        scope: './'
+    }).then(function (registration) {
+        var serviceWorker;  
+        if (registration.installing) {
+            serviceWorker = registration.installing;
+        } else if (registration.waiting) {
+            serviceWorker = registration.waiting;
+        } else if (registration.active) {
+            serviceWorker = registration.active;
+        }
+        if (serviceWorker) {
+        
+            serviceWorker.addEventListener('statechange', function (e) {
+                
+            });
+        }
+    }).catch(function (error) {
+        
+    });
+}
+
+
+
+window.addEventListener('beforeinstallprompt', function(e) {
+ //   console.log('beforeinstallprompt Event fired');
+        e.userChoice.then(function(choiceResult) {
+            //console.log(choiceResult.outcome);
+            if(choiceResult.outcome == 'dismissed') {
+            //console.log('User cancelled home screen install');
+            }
+            else {
+            //console.log('User added to home screen');
+            }
+        });
+    });
+
+
+
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  
+  btnAdd.style.display = 'block';
+});
+
+btnAdd.addEventListener('click', (e) => {
+  btnAdd.style.display = 'none';
+  deferredPrompt.prompt();
+  deferredPrompt.userChoice
+    .then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        //console.log('User accepted the A2HS prompt');
+      } else {
+        //console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+});
+
+
+window.addEventListener('appinstalled', (evt) => {
+  //app.logEvent('a2hs', 'installed');
+});
+
+
+

@@ -48,9 +48,10 @@ var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss
 function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } function fcasmdplex_load_server(){ return fcasmdplex_loadex.openex.server(); }    
 
     function loadJS(src, then) {
-  var script = document.createElement('script');
+ var targf_daaet = document.getElementById("emb-fs"); 
+ var script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');  script.src = src;  script.onload = then;
-  document.body[0].appendChild(script);
+  targf_daaet.appendChild(script);
 }
 
 function notifyLoad() {     }
@@ -65,7 +66,7 @@ function notifyLoad() {     }
     
   </script>
     <style>
-
+  
   </style>
   
 </head>

@@ -50,7 +50,7 @@ function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } functi
     function loadJS(src, then) {
   var script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');  script.src = src;  script.onload = then;
-  document.body.appendChild(script);
+  document.body[0].appendChild(script);
 }
 
 function notifyLoad() {     }

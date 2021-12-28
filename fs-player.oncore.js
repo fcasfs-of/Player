@@ -14,7 +14,7 @@ var download_video_set_in=function(){};
 
 
 var fs_embed_filepre_list = {};
-function fs_embed_filepreminit(link){  return { is:function(){  return fs_embed_filepre_list[link];  }, load:function(p,i,e){   fs_embed_filepre_list[link] = true; }  }; }
+function fs_embed_filepreminit(link){  return { is:function(){  return fs_embed_filepre_list[link];  }, load:function(){   fs_embed_filepre_list[link] = true; }  }; }
 
 var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d){
 	return '<div class="relative">                <div class="privacy-wall">                    <div class="privacy-wall-container">                        <div class="privacy-wall-privacywarn">                            <div class="privacy-wall-privacywarn-i">                                <div class="privacy-wall-privacywarn-text"> You need to subscribe with us to reproduce this and other files on FCAS_FS Premium! </div>                                <div class="btnContainer mitte">                                    <a class="standard btnBlau icon-double-arrow-right XL privacy-wall-ok" href="https://fcasfs-of.github.io/Player/payment.html"> Go to payment page </a>                                </div>                            </div>                        </div>                   </div>                </div>                                    <img src="'+d+'"/>                           </div>';

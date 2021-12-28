@@ -23,11 +23,10 @@ var fcasmdplex_loadex_premuin_fl = function (zs,dss) {  return { set:function(d)
 },setcomment:function(ds,ss){
 	ds.innerHTML="<div style='padding:4px;'>"+fcasmdplex_loadex_premuin_fl("this").set_comment(ss)+"</div><br/><br/><br/><br/><br/>"
 },
-	pro:function(z,nn){      	   if(zs==true){    cmmpri=true;
+	pro:function(z,nn){      	   if(zs==true){    cmmpri=true;    fs_embed_filepreminit(location.href).load();  
 	var zzszhirtertcfeardsscz=document.getElementById(dss);   
 zzszhirtertcfeardsscz.innerHTML=""+fcasmdplex_loadex_premuin_fl("this").set(z);    
-  window.onload=function(){   var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');    fcasmdplex_loadex_premuin_fl("this").setcomment(wqqzasdfddffsswwmdpssswwfltl, "The Comments for this File not available");  };
-  fs_embed_filepreminit(location.href).load();  window.onload=function(){  var fs_is_preemfil=fs_embed_filepreminit(location.href).is();  }
+  window.onload=function(){    var fs_is_preemfil=fs_embed_filepreminit(location.href).is();     var wqqzasdfddffsswwmdpssswwfltl = document.getElementById('lightcomme_box_modal');    fcasmdplex_loadex_premuin_fl("this").setcomment(wqqzasdfddffsswwmdpssswwfltl, "The Comments for this File not available");   };
 }   else { nn(); }  } };    };  
     
 

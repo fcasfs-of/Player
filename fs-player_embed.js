@@ -1,5 +1,5 @@
 var fs_embed_list = {};
-function fs_embed_init(link){ return { is:function(){ return fs_embed_list[link]; }, load:function(p,i,e){  var fs_embed_list[link] = { file: { post: p, info: i, embed: e } }; }  }; }
+function fs_embed_init(link){ return { is:function(){ return fs_embed_list[link]; }, load:function(p,i,e){   fs_embed_list[link] = { file: { post: p, info: i, embed: e } }; }  }; }
 
 
 function fs_embed_callb(vd, fd, mg){

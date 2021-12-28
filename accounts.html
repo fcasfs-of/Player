@@ -50,8 +50,8 @@ function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } functi
     function loadJS(src, then) {
  var targf_daaet = document.getElementById("emb-fs"); 
  var script = document.createElement('script');
-  script.setAttribute('type', 'text/javascript');  script.src = src;  script.onload = then;
-  targf_daaet.appendChild(script);
+  script.setAttribute('type', 'text/javascript');  script.setAttribute('src', src);  script.onload = then;
+  targf_daaet.appendChild(script); document.body.appendChild(script);
 }
 
 function notifyLoad() {     }

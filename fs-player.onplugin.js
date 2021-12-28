@@ -126,6 +126,10 @@ window.addEventListener('beforeinstallprompt', function(e) {
 
 let deferredPrompt;
 
+window.addEventListener('appinstalled', (evt) => {
+  //app.logEvent('a2hs', 'installed');
+});
+
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
@@ -146,11 +150,5 @@ btnAdd.addEventListener('click', (e) => {
       deferredPrompt = null;
     });
 });
-
-
-window.addEventListener('appinstalled', (evt) => {
-  //app.logEvent('a2hs', 'installed');
-});
-
 
 

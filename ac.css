@@ -1,0 +1,23 @@
+
+.card.user {  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  transition: 0.3s;  width: 40%;}
+.card.user:hover {  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);transition: all 0.1s linear;}
+.card.user .container {  padding: 2px 16px;transition: all 0.1s linear;}
+
+.card.Product {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  max-width: 300px;  margin: auto;  text-align: center;  font-family: arial;transition: all 0.1s linear;	}
+.card.Product .price {  transition: all 0.1s linear;	color: #808080;  font-size: 22px;}
+.card.Product button {  border: none;  outline: 0;  padding: 12px;  color: #fff;  background-color: #000;  text-align: center;  cursor: pointer;  width: 100%;  font-size: 18px;transition: all 0.1s linear;	}.card.Product button:hover {  opacity: 0.7;transition: all 0.1s linear;	}
+
+.card.Profile {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  max-width: 300px;  margin: auto;  text-align: center;  font-family: arial;transition: all 0.1s linear;}
+.card.Profile .title { transition: all 0.1s linear; color: #808080;  font-size: 18px;}
+.card.Profile button {transition: all 0.1s linear;  border: none;  outline: 0;  display: inline-block;  padding: 8px;  color: #fff;  background-color: #000;  text-align: center;  cursor: pointer;  width: 100%;  font-size: 18px;}
+.card.Profile a {transition: all 0.1s linear;  text-decoration: none;  font-size: 22px;  color: #000;}
+.card.Profile button:hover, .card.Profile a:hover {  opacity: 0.7;transition: all 0.1s linear;}
+
+.card.user_f {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  transition: all 0.1s linear;  padding: 16px;  text-align: center;  background-color: #f1f1f1;}
+
+.chip.user {  display: inline-block;  padding: 0 25px;  height: 50px;  font-size: 16px;  line-height: 50px;  border-radius: 25px;  background-color: #f1f1f1;transition: all 0.1s linear; }.chip.user img { transition: all 0.1s linear;  float: left;  margin: 0 10px 0 -25px;  height: 50px;  width: 50px;  border-radius: 50%;}
+
+.coupon.pro {transition: all 0.1s linear;   border: 5px dotted #bbb;  width: 80%;  border-radius: 15px;  margin: 0 auto;  max-width: 600px;}
+.coupon.pro .container {transition: all 0.1s linear;   padding: 2px 16px;  background-color: #f1f1f1;}
+.coupon.pro .promo {  background: #ccc;transition: all 0.1s linear;   padding: 3px;}
+.coupon.pro .expire {transition: all 0.1s linear;   color: #ff0000;}

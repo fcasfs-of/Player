@@ -49,6 +49,8 @@ function fmdplex_loadex_txv(t){  if(t==""){    return "";  }   if(t=="undefined"
 var fcasmdplex_loadex = { open: function (dss) {  return location.href.split(dss)[1]; }, openex:{ url: function () {  return "?url="; }, server: function () {  return "?server/file="; } }  }; 
 function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } function fcasmdplex_load_server(){ return fcasmdplex_loadex.openex.server(); }    
 
+    function loa_closealrr() { var targsalettt0932aet = document.getElementById("alettt-0932"); targsalettt0932aet.innerHTML="";    }
+    
     function loadJS(src, then) {
  var targf_daaet = document.getElementById("emb-fs"); 
  var script = document.createElement('script');
@@ -59,6 +61,9 @@ function fcasmdplex_load_url() { return fcasmdplex_loadex.openex.url(); } functi
 function notifyLoad() {     }
 
     function aspor(){return "";}
+    
+    function alertid(te,rr){   return '<span id="alettt-0932"><div class="alert"><span class="closebtn" onclick="loa_closealrr();">X</span>   <strong>'+te+'</strong>'+rr+'</div><br/></span>';   }
+    
     
     function do_vieimad_vietdd(za,dg, zzzd) {     var nex_loadefgdx_downndmm=true;
  var ex_loadex_downnd=dg;  if(ex_loadex_downnd==""){   }  else {  
@@ -87,7 +92,10 @@ function aspor(ss){   var dsfdssdade=id_proff(ss);
   var dsfdsftinfe=dsfdssdade.desc;
  var dsfdsftinfessssaa="<br/>"+dsfdsftinfe+"<br/><br/>"+dsfdsftsubtte+"<br/><br/>";
 
-   var dsfdsdfsdfsdfsfddsfnfe="{'name':'"+dsfdsftitle+"','pic':'"+dsfdsfimf+"','info':'"+dsfdsftsubtte+"','desc':'"+dsfdsftinfe+"'}";
+  var dsfdssdadedalert="";
+  if(fmdplex_loadex_txv(dsfdssdade.alert)==""){  }  else {  var dsfdssdadedalert=alertid("",dsfdssdade.alert);  }
+
+  var dsfdsdfsdfsdfsfddsfnfe="{'name':'"+dsfdsftitle+"','pic':'"+dsfdsfimf+"','info':'"+dsfdsftsubtte+"','desc':'"+dsfdsftinfe+"'}";
 
   document.title="FS Player: Account: "+dsfdsftitle;
 if(dsfdssdade.val==true){   return '<div class="card Profile" id="profile-'+ss+'" profile="'+dsfdsdfsdfsdfsfddsfnfe+'"><img src="'+dsfdsfimf+'" onclick="do_vieimad_vietdd(\'image\',\''+dsfdsfimf+'\', \''+dsfdsftitle+'\');" style="cursor:pointer;width:100%"><h1 style="cursor:pointer;" onclick="do_vieimad_vietdd(\'text\',\''+dsfdsftinfessssaa+'\', \''+dsfdsftitle+'\');">'+dsfdsftitle+'</h1><span id="fs-projjjf">  <p class="title">'+dsfdsftsubtte+'</p><p>'+dsfdsftinfe+'</p> </span>   <div style="margin: 24px 0;"> '+dsfdssdade.list+' </div>   <p style="">'+dsfdssdade.btn+'</p><br/><br/></div>';
@@ -95,7 +103,7 @@ if(dsfdssdade.val==true){   return '<div class="card Profile" id="profile-'+ss+'
   }
 
   targf_idproaaaet.innerHTML="";
-if(targf_idproaaaetttt==""){  }  else{  targf_idproaaaet.innerHTML="<br/>"+aspor(targf_idproaaaetttt)+"<br/><br/>";   }
+if(targf_idproaaaetttt==""){  }  else{  targf_idproaaaet.innerHTML="<br/>"+dsfdssdadedalert+"<br/>"+aspor(targf_idproaaaetttt)+"<br/><br/>";   }
   
 </script>
 

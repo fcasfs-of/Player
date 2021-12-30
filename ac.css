@@ -1,3 +1,6 @@
+.alert {  padding: 20px;transition: all 0.1s linear;  background-color: #f44336;  color: #fff;}.alert .closebtn {  margin-left: 15px;  color: #fff;  font-weight: bold;  float: right;  font-size: 22px;  line-height: 20px;  cursor: pointer;  transition: all 0.1s linear;}.alert .closebtn:hover {  color: #000;transition: all 0.1s linear;}
+
+.noted {  margin-bottom: 15px;transition: all 0.1s linear;   padding: 4px 12px;}.noted.danger {  background-color: #ffdddd;transition: all 0.1s linear;   border-left: 6px solid #f44336;}.noted.success {transition: all 0.1s linear;   background-color: #ddffdd;  border-left: 6px solid #04AA6D;}.noted.info {  background-color: #e7f3fe;transition: all 0.1s linear;   border-left: 6px solid #2196F3;}.noted.warning {transition: all 0.1s linear;   background-color: #ffffcc;  border-left: 6px solid #ffeb3b;}
 
 .card.user {  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  transition: 0.3s;  width: 40%;}
 .card.user:hover {  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);transition: all 0.1s linear;}

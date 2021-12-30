@@ -63,6 +63,7 @@ function notifyLoad() {     }
     function aspor(){return "";}
     
     function alertid(te,rr){   return '<span id="alettt-0932"><div class="alert"><span class="closebtn" onclick="loa_closealrr();">X</span>   <strong>'+te+'</strong>'+rr+'</div><br/></span>';   }
+    function notetid(te,rr){   return '<br/><div class="noted info"><p><strong>'+te+'</strong>'+rr+'</p></div><br/>';   }
     
     
     function do_vieimad_vietdd(za,dg, zzzd) {     var nex_loadefgdx_downndmm=true;
@@ -94,6 +95,8 @@ function aspor(ss){   var dsfdssdade=id_proff(ss);
 
   var dsfdssdadedalert="";
   if(fmdplex_loadex_txv(dsfdssdade.alert)==""){  }  else {  var dsfdssdadedalert=alertid("",dsfdssdade.alert);  }
+  var dsfdssdadednote="";
+  if(fmdplex_loadex_txv(dsfdssdade.note)==""){  }  else {  var dsfdssdadednote=notetid("",dsfdssdade.note);  }
 
   var dsfdsdfsdfsdfsfddsfnfe="{'name':'"+dsfdsftitle+"','pic':'"+dsfdsfimf+"','info':'"+dsfdsftsubtte+"','desc':'"+dsfdsftinfe+"'}";
 
@@ -103,7 +106,7 @@ if(dsfdssdade.val==true){   return '<div class="card Profile" id="profile-'+ss+'
   }
 
   targf_idproaaaet.innerHTML="";
-if(targf_idproaaaetttt==""){  }  else{  targf_idproaaaet.innerHTML="<br/>"+dsfdssdadedalert+"<br/>"+aspor(targf_idproaaaetttt)+"<br/><br/>";   }
+if(targf_idproaaaetttt==""){  }  else{  targf_idproaaaet.innerHTML="<br/>"+dsfdssdadedalert+"<br/>"+aspor(targf_idproaaaetttt)+"<br/><br/>"+dsfdssdadednote;   }
   
 </script>
 

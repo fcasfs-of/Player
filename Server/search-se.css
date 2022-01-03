@@ -3,7 +3,7 @@
 .main {  max-width: 1000px;  margin: auto;}
 .row {  margin: 10px -16px;}
 .row,.row > .column {  padding: 8px;}
-.column {  float: left;  width: 33.33%;  display: none; }
+.column {   display: none; }
 .row:after {  content: "";  display: table;  clear: both;}
 .content {  background-color: #fff;  padding: 10px;}
 .show {  display: block;}

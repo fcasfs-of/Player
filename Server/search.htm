@@ -79,7 +79,24 @@ location.href=ex_loadex_downnd;
 <span style="line-height: normal; padding: 6px; width:100%; pointer-events: auto; text-align: center;"  id="pl_ar_sera_aip_r_inr">   <form id="f_mfdval_Input" action="https://fcasfs-of.github.io/Player/Server/search.htm" style="width:100%;">  <label for="q">Search File</label> <input name="q" id="q" class="mdfs_my_val_Input mdpl-fcas-audiotrans" onkeyup="mspl_search_list();" placeholder="Search..." title="" type="text" style="position:relative; left:6px; "/> </form>  </span>  <br/><div style="position:relative;margin-right:4px;margin-left:5px;padding:4px; text-align:center;pointer-events:none;" id="Results_search_f"></div>
  <br/>
   </div>
-<div><br/><ul id="f_list_filesaaa" class="mdpl-fcas-audiotrans"></ul><br/></div><br/>
+<div><br/>
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('tx')"> Text</button>
+  <button class="btn" onclick="filterSelection('pic')"> Photo</button>
+  <button class="btn" onclick="filterSelection('doc')"> Document</button>
+  <button class="btn" onclick="filterSelection('musi')"> Áudio</button>
+  <button class="btn" onclick="filterSelection('vid')"> Video</button>
+  <button class="btn" onclick="filterSelection('vf')"> Others Files</button>
+</div>
+
+<div class="row">
+<ul id="f_list_filesaaa" class="mdpl-fcas-audiotrans"></ul>
+</div>
+
+</div>
+  
+  <br/></div><br/>
 
   
 <script src="search-ser.js"></script>

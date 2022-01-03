@@ -36,15 +36,6 @@ function mspl_search_clet(d){  var search_input = document.getElementById("q"); 
 
   
 
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
 
 function w3AddClass(element, name) {
   var i, arr1, arr2;
@@ -66,6 +57,19 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+
+
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
 
 
 

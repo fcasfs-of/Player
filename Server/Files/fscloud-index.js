@@ -26,7 +26,7 @@ var loacol9d="https://fcasfs-of.github.io/Player/Server/Files/cloud";
 
 
 function additebfnnd(dsdsd,targf_ddlist_filesaaaet,kl,kk, fdgf){
-//var targf_ddlist_filesaaaet = '';
+var targf_ddlist_filesaaaet = '';
 
 
 
@@ -39,13 +39,13 @@ function additebfnnd(dsdsd,targf_ddlist_filesaaaet,kl,kk, fdgf){
 //targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"video",kl,kk,loacol9d+"/video/712690675063432847324893.html","https://archive.org/download/tokusastsu-hit-song-collection/tokusastsu-hit-song-collection.thumbs/Sekai Ninja Sen Jiraiya - Full Songs_000294.jpg","Sekai Ninja Sen Jiraiya - Full Songs");
 
 
-//targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"music",kl,kk,loacol9d+"/audio/711000175000102800114110.html","https://fcasfs-of.github.io/Player/Server/Files/Audio_Spectrum-648789.jpg","Space Squad: Gavan vs Dekaranger - music 02");
-//targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"music",kl,kk,loacol9d+"/audio/711000175000002220124101.html","https://fcasfs-of.github.io/Player/Server/Files/Audio_Spectrum-648789.jpg","Space Squad: Gavan vs Dekaranger - music 01");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"music",kl,kk,loacol9d+"/audio/711000175000102800114110.html","https://fcasfs-of.github.io/Player/Server/Files/Audio_Spectrum-648789.jpg","Space Squad: Gavan vs Dekaranger - music 02");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"music",kl,kk,loacol9d+"/audio/711000175000002220124101.html","https://fcasfs-of.github.io/Player/Server/Files/Audio_Spectrum-648789.jpg","Space Squad: Gavan vs Dekaranger - music 01");
 
 
-//targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/451450570543505847050855.html","https://archive.org/download/784757575712/1377976_230563587119799_822013184_n.jpg","Jiraiya vs Dokusai");
-//targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/451451111141505847050855.html","https://archive.org/download/784757575712/IMG_118522831103.jpeg","Juspion vs MacGaren");
-//targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/421440570524407187054454.html","https://archive.org/download/784757575712/78 (9).jpg","Juspion: MacGaren 1");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/451450570543505847050855.html","https://archive.org/download/784757575712/1377976_230563587119799_822013184_n.jpg","Jiraiya vs Dokusai");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/451451111141505847050855.html","https://archive.org/download/784757575712/IMG_118522831103.jpeg","Juspion vs MacGaren");
+targf_ddlist_filesaaaet=targf_ddlist_filesaaaet+add_fileset(fdgf, dsdsd,"photo",kl,kk,loacol9d+"/photo/421440570524407187054454.html","https://archive.org/download/784757575712/78 (9).jpg","Juspion: MacGaren 1");
 
 return targf_ddlist_filesaaaet;   }
 

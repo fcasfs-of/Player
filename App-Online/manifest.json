@@ -1,0 +1,39 @@
+{
+  "name": "FS-PLAYER",
+  "short_name": "FS_PLAYER",
+  "lang": "en-US",
+  "start_url": "#",
+  "scope": "#",
+  "zq-display": "fullscreen",
+  "zq-orientation": "landscape",
+  "theme_color": "#111",
+  "icons": [
+    {
+      "src": "Apps-Player-Video-icon.png",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+   "related_applications": [
+    {
+      "platform": "play",
+      "id": "net.fcasfs.fsplayer",
+      "url": "#"
+    }
+  ],
+ "prefer_related_applications": true,
+  "screenshots": [
+    {
+      "src": "Apps-Player-Video-icon.png",
+      "type": "image/png"
+    },
+    {
+      "src": "Apps-Player-Video-icon.png",
+      "type": "image/png"
+    },
+    {
+      "src": "Apps-Player-Video-icon.png",
+      "type": "image/png"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "lang": "en-US",
   "start_url": "#",
   "scope": "#",
-  "zq-display": "fullscreen",
-  "zq-orientation": "landscape",
+  "zq-display": "fullscreen ",
+  "zq-orientation": "landscape ",
   "theme_color": "#111",
   "icons": [
     {
